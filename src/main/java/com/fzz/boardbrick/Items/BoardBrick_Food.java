@@ -1,4 +1,4 @@
-package com.fzz.boardbrick.Items.ItemsPack;
+package com.fzz.boardbrick.Items;
 
 import com.fzz.boardbrick.boardbrick;
 import net.minecraft.item.Food;

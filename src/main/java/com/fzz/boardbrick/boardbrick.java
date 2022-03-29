@@ -1,7 +1,6 @@
 package com.fzz.boardbrick;
 
-import com.fzz.boardbrick.Items.ItemRegistry;
-import com.fzz.boardbrick.Items.ItemsPack.BoardBrick;
+import com.fzz.boardbrick.Items.BoardBrick;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
@@ -16,8 +15,9 @@ public class boardbrick {
     public static final ItemGroup BoardGroup = new boardbrick.BoardGroup("boardgroup");
     //BoardBrick
 
-    public boardbrick() {
-        ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus()); //Register event system
+    public boardbrick() { //申请MOD总线而不是申请Forge总线，因为这个东西基于事件系统
+        ObjectRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus()); //Register event system
+        ObjectRegistry.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus()); //Registry event system
     }
 
     //Create tab
