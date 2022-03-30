@@ -1,4 +1,7 @@
 {
   "item.boardbrick.board_brick": "Board brick",
-  "item.boardbrick.board_brick_food": "Can eat"
+  "item.boardbrick.board_brick_food": "Can eat",
+  "block.boardbrick.board_block_first": "Board Block LV1",
+
+  "itemGroup.boardgroup": "Board tab"
 }

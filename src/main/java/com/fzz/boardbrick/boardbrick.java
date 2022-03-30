@@ -1,6 +1,5 @@
 package com.fzz.boardbrick;
 
-import com.fzz.boardbrick.Items.BoardBrick;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
@@ -28,7 +27,7 @@ public class boardbrick {
 
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(new BoardBrick());
+            return new ItemStack(ObjectRegistry.BoardBrick.get());
         }
     }
 

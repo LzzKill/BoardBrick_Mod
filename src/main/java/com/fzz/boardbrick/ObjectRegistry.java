@@ -22,7 +22,7 @@ public class ObjectRegistry {
     public static RegistryObject<Item> BoardBrick_Item = ITEMS.register("board_brick_food",()-> new BoardBrick_Food()); //Return mod BUS
 
     //Registry Block and BlockItem
-    public static RegistryObject<Block> BoardBlockFirst_Block = BLOCKS.register("board_brick_first",()->new BoardBlockFirst());
+    public static RegistryObject<Block> BoardBlockFirst_Block = BLOCKS.register("board_block_first",()->new BoardBlockFirst());
 
-    public static RegistryObject<Item> BoardBlockFirst_Item = ITEMS.register("board_block",()-> new BlockItem(BoardBlockFirst_Block.get(), new Item.Properties().tab(boardbrick.BoardGroup)));
+    public static RegistryObject<Item> BoardBlockFirst_Item = ITEMS.register("board_block_first",()-> new BlockItem(BoardBlockFirst_Block.get(), new Item.Properties().tab(boardbrick.BoardGroup)));
 }
