@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "boardbrick:board_brick"
+    }
+  },
+  "result": {
+    "item": "boardbrick:board_brick_food"
+  }
+}

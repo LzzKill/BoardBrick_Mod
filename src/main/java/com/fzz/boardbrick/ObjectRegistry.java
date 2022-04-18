@@ -2,7 +2,7 @@ package com.fzz.boardbrick;
 
 import com.fzz.boardbrick.Blocks.BoardBlockFirst;
 import com.fzz.boardbrick.Blocks.BoardBlockThird;
-import com.fzz.boardbrick.Blocks.BoardblockSecond;
+import com.fzz.boardbrick.Blocks.BoardBlockSecond;
 import com.fzz.boardbrick.Items.BoardBrick_Food;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -30,7 +30,7 @@ public class ObjectRegistry {
     //Registry Block
 
     public static RegistryObject<Block> BoardBlockFirst_Block = BLOCKS.register("board_block_first", () -> new BoardBlockFirst());
-    public static RegistryObject<Block> BoardBlockSecond_Block = BLOCKS.register("board_block_second", () -> new BoardblockSecond());
+    public static RegistryObject<Block> BoardBlockSecond_Block = BLOCKS.register("board_block_second", () -> new BoardBlockSecond());
     public static RegistryObject<Block> BoardBlockThird_Block = BLOCKS.register("board_block_third", () -> new BoardBlockThird());
 
 
