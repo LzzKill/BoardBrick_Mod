@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "boardbrick:block/board_block_second"
+    "all": "boardbrick:block/board_block_third"
   }
 }

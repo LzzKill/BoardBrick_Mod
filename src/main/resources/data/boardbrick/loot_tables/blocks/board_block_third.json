@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "boardbrick:board_block_second"
+          "name": "boardbrick:board_block_third"
         }
       ],
       "conditions": [

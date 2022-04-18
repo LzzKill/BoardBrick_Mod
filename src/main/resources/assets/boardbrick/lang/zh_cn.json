@@ -2,6 +2,7 @@
   "item.boardbrick.board_brick": "板砖",
   "item.boardbrick.board_brick_food": "能吃的板砖",
   "block.boardbrick.board_block_first": "板砖砖",
-
+  "block.boardbrick.board_block_second": "板砖砖砖",
+  "block.boardbrick.board_block_third": "板砖砖砖砖",
   "itemGroup.boardgroup": "板砖 Mod"
 }
