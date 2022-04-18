@@ -31,7 +31,7 @@ public class ObjectRegistry {
 
     public static RegistryObject<Block> BoardBlockFirst_Block = BLOCKS.register("board_block_first", () -> new BoardBlockFirst());
     public static RegistryObject<Block> BoardBlockSecond_Block = BLOCKS.register("board_block_second", () -> new BoardblockSecond());
-    public static RegistryObject<Block> BoardBlockThird_Block = BLOCKS.register("board_block_second", () -> new BoardBlockThird());
+    public static RegistryObject<Block> BoardBlockThird_Block = BLOCKS.register("board_block_third", () -> new BoardBlockThird());
 
 
     //Registry BlockItem
