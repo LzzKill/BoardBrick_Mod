@@ -1,8 +1,6 @@
 package com.fzz.boardbrick;
 
-import com.fzz.boardbrick.Blocks.BoardBlockFirst;
-import com.fzz.boardbrick.Blocks.BoardBlockThird;
-import com.fzz.boardbrick.Blocks.BoardBlockSecond;
+import com.fzz.boardbrick.Blocks.*;
 import com.fzz.boardbrick.Items.BoardBrick_Food;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -29,15 +27,22 @@ public class ObjectRegistry {
 
     //Registry Block
 
-    public static RegistryObject<Block> BoardBlockFirst_Block = BLOCKS.register("board_block_first", () -> new BoardBlockFirst());
-    public static RegistryObject<Block> BoardBlockSecond_Block = BLOCKS.register("board_block_second", () -> new BoardBlockSecond());
-    public static RegistryObject<Block> BoardBlockThird_Block = BLOCKS.register("board_block_third", () -> new BoardBlockThird());
-
-
+    public static RegistryObject<Block> A = BLOCKS.register("board_block_first", () -> new BoardBlockFirst());
+    public static RegistryObject<Block> B = BLOCKS.register("board_block_second", () -> new BoardBlockSecond());
+    public static RegistryObject<Block> C = BLOCKS.register("board_block_third", () -> new BoardBlockThird());
+    public static RegistryObject<Block> D = BLOCKS.register("board_block_fourth", () -> new BoardBlockFourth());
+    public static RegistryObject<Block> E = BLOCKS.register("board_block_fifth", () -> new BoardBlockFifth());
+    public static RegistryObject<Block> F = BLOCKS.register("board_block_fourth", () -> new BoardBlockSixth());
+    public static RegistryObject<Block> G = BLOCKS.register("board_block_fourth", () -> new BoardBlockSeventh());
+    public static RegistryObject<Block> H = BLOCKS.register("board_block_fourth", () -> new BoardBlockEighth());
+    public static RegistryObject<Block> I = BLOCKS.register("board_block_fourth", () -> new BoardBlockNinth());
+    public static RegistryObject<Block> J = BLOCKS.register("board_block_fourth", () -> new BoardBlockSuper());
     //Registry BlockItem
 
-    public static RegistryObject<Item> BoardBlockFirst_Item = ITEMS.register("board_block_first", () -> new BlockItem(BoardBlockFirst_Block.get(), new Item.Properties().tab(boardbrick.BoardGroup)));
-    public static RegistryObject<Item> BoardBlockSecond_Item = ITEMS.register("board_block_second", () -> new BlockItem(BoardBlockSecond_Block.get(), new Item.Properties().tab(boardbrick.BoardGroup)));
-    public static RegistryObject<Item> BoardBlockThird_Item = ITEMS.register("board_block_third", () -> new BlockItem(BoardBlockThird_Block.get(), new Item.Properties().tab(boardbrick.BoardGroup)));
+    public static RegistryObject<Item> a = ITEMS.register("board_block_first", () -> new BlockItem(A.get(), new Item.Properties().tab(boardbrick.BoardGroup)));
+    public static RegistryObject<Item> b = ITEMS.register("board_block_second", () -> new BlockItem(B.get(), new Item.Properties().tab(boardbrick.BoardGroup)));
+    public static RegistryObject<Item> c = ITEMS.register("board_block_third", () -> new BlockItem(C.get(), new Item.Properties().tab(boardbrick.BoardGroup)));
+    public static RegistryObject<Item> d = ITEMS.register("board_block_fourth", () -> new BlockItem(D.get(), new Item.Properties().tab(boardbrick.BoardGroup)));
+    public static RegistryObject<Item> e = ITEMS.register("board_block_fifth", () -> new BlockItem(E.get(), new Item.Properties().tab(boardbrick.BoardGroup)));
 
 }
