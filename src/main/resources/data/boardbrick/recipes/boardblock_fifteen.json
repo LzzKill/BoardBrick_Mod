@@ -2,28 +2,28 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "boardbrick:board_block_eight"
+      "item": "boardbrick:board_block_eighth"
     },
     {
-      "item": "boardbrick:board_block_eight"
+      "item": "boardbrick:board_block_eighth"
     },
     {
-      "item": "boardbrick:board_block_eight"
+      "item": "boardbrick:board_block_eighth"
     },
     {
-      "item": "boardbrick:board_block_eight"
+      "item": "boardbrick:board_block_eighth"
     },
     {
-      "item": "boardbrick:board_block_eight"
+      "item": "boardbrick:board_block_eighth"
     },
     {
-      "item": "boardbrick:board_block_eight"
+      "item": "boardbrick:board_block_eighth"
     },
     {
-      "item": "boardbrick:board_block_eight"
+      "item": "boardbrick:board_block_eighth"
     },
     {
-      "item": "boardbrick:board_block_eight"
+      "item": "boardbrick:board_block_eighth"
     }
   ],
   "result": {
