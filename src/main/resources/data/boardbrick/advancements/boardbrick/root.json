@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "boardbrick:board_brick"
+    },
+    "title": {
+      "translate": "advancements.boardbrick.root.title"
+    },
+    "description": {
+      "translate": "advancements.boardbrick.root.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "crafting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "boardbrick:board_brick"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafting_table"
+    ]
+  ]
+}

@@ -1,31 +1,39 @@
 {
+  "parent": "boardbrick:boardbrick/root",
   "display": {
     "icon": {
-      "item": "boardbrick:board_block_super"
+      "item": "boardbrick:board_block_super",
+      "nbt": "{Damage:0}"
     },
     "title": {
       "translate": "advancements.boardbrick.getsuperblock.title"
     },
     "description": {
-      "translate": "advancements.boardbrick.getsuperblock.true"
+      "translate": "advancements.boardbrick.getsuperblock.description"
     },
     "frame": "challenge",
-    "show_toast": false,
+    "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "rewards": {
     "experience": 1145141919810
   },
   "criteria": {
-    "board_block_super": {
-      "trigger": "boardbrick:board_block_super",
-      "conditions": {}
+    "board_brick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "boardbrick:board_block_super"
+          }
+        ]
+      }
     }
   },
   "requirements": [
     [
-      "boardbrick:board_brick_super"
+      "board_brick"
     ]
   ]
 }
