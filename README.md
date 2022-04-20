@@ -1,21 +1,22 @@
 BoardBrick Minecraft Mod
 ========================
 
-#### <a harf="https://space.bilibili.com/626855532">My Bilibili</a> / <a harf="https://afdian.net/@IMFZZZZZZZZZZZZZZZZ">My Afdian</a>
+#### <a harf="https://space.bilibili.com/626855532">My Bilibili</a> / <a harf="https://afdian.net/@IMFZZZZZZZZZZZZZZZZ">My Afdian</a> / <a harf="https://github.com/fzzkill">My Github</a>
 
 Enjoy the mod!
 --------------
 
-FAQ
-===
+The mod add some Items and Blocks \
+You can use REI Mod with mine
 
-##### Why I do the mod
+## And ...... Other!
 
-I think not a good at now
+IDE: IntelliJ IDEA \
+Author: FzzKill
 
 ##### What's it version
 
 Minecraft 1.16.5+ \
-Forge and Fabric
+Only Forge(In the future, it may support or update fabric mod upwards)
 
 # License : Mozilla Public License 2.0
