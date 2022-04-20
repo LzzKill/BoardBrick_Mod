@@ -15,5 +15,8 @@
   "advancements.boardbrick.root.title": "You win!!!!!!!!!!!!!!!!!!",
   "advancements.boardbrick.getsuperblock.description": "you are so boring!",
   "advancements.boardbrick.getsuperblock.title": "do it!",
+  "item.boardbrick.board_brick_sward": "Board Brick Sward",
+  "item.boardbrick.board_brick_pickaxe": "Board Brick Pickaxe",
+  "item.boardbrick.board_brick_pickaxe_plus": "Board Brick Pickaxe Plus",
   "itemGroup.boardgroup": "Board Group"
 }

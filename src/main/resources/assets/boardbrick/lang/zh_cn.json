@@ -15,5 +15,8 @@
   "advancements.boardbrick.root.title": "你赢了！",
   "advancements.boardbrick.getsuperblock.description": "真他妈无聊",
   "advancements.boardbrick.getsuperblock.title": "快他妈做！",
+  "item.boardbrick.board_brick_sward": "板砖剑",
+  "item.boardbrick.board_brick_pickaxe": "板砖稿",
+  "item.boardbrick.board_brick_pickaxe_plus": "板砖稿++",
   "itemGroup.boardgroup": "板砖 Mod"
 }

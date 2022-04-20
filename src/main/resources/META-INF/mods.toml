@@ -32,7 +32,7 @@ logoFile = "examplemod.png" #optional
 credits = "Thanks Forge and you" #optional
 # A text field displayed in the mod UI
 authors="Fzzkill" #optional
-# The description text for the mod (multi line!) (#mandatory)
+# The description text for the mod (multi line!) (#mandatory)ol
 description='''
 This is BoardBrick mod
 it a my mod

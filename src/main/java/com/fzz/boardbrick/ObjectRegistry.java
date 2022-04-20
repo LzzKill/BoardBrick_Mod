@@ -3,6 +3,9 @@ package com.fzz.boardbrick;
 import com.fzz.boardbrick.Blocks.*;
 import com.fzz.boardbrick.Items.BoardBrick;
 import com.fzz.boardbrick.Items.BoardBrick_Food;
+import com.fzz.boardbrick.Tools.Items.general.BoardBrickPickaxe;
+import com.fzz.boardbrick.Tools.Items.general.BoardBrickSword;
+import com.fzz.boardbrick.Tools.Items.plus.BoardBrickSword_Plus;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -20,6 +23,21 @@ public class ObjectRegistry {
     //注册，返回的是一个根方法类，用第一个BoardBrick举例
     public static RegistryObject<Item> BoardBrick = ITEMS.register("board_brick", () -> new BoardBrick()); //Return mod BUS
     public static RegistryObject<Item> BoardBrick_Item = ITEMS.register("board_brick_food", () -> new BoardBrick_Food()); //Return mod BUS
+
+
+    /*
+     * Registry tool
+     */
+
+    //Sword
+    public static RegistryObject<Item> BoardBrickSward = ITEMS.register("board_brick_sward", () -> new BoardBrickSword());
+
+    //Pickaxe
+    public static RegistryObject<Item> BoardBrickPickaxe = ITEMS.register("board_brick_pickaxe", () -> new BoardBrickPickaxe());
+
+    //Plus
+    public static RegistryObject<Item> BoardBrickSward_Plus = ITEMS.register("board_brick_sward_plus", () -> new BoardBrickSword_Plus());
+
 
     /*
      * Registry Block and BlockItem
