@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "boardbrick:board_block_ninth"
+    },
+    {
+      "item": "boardbrick:board_block_ninth"
+    },
+    {
+      "item": "boardbrick:board_block_ninth"
+    },
+    {
+      "item": "boardbrick:board_block_ninth"
+    },
+    {
+      "item": "boardbrick:board_block_ninth"
+    },
+    {
+      "item": "boardbrick:board_block_ninth"
+    },
+    {
+      "item": "boardbrick:board_block_ninth"
+    },
+    {
+      "item": "boardbrick:board_block_ninth"
+    }
+  ],
+  "result": {
+    "item": "boardbrick:board_block_super"
+  }
+}
