@@ -11,5 +11,9 @@
   "block.boardbrick.board_block_eighth": "Board Block LV8",
   "block.boardbrick.board_block_ninth": "Board Block LV9",
   "block.boardbrick.board_block_super": "Board Block Super",
+  "advancements.boardbrick.root.description": "BoardBrick Mod",
+  "advancements.boardbrick.root.title": "You win!!!!!!!!!!!!!!!!!!",
+  "advancements.boardbrick.getsuperblock.description": "you are so boring!",
+  "advancements.boardbrick.getsuperblock.title": "do it!",
   "itemGroup.boardgroup": "Board Group"
 }
