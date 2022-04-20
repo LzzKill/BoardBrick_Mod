@@ -4,5 +4,12 @@
   "block.boardbrick.board_block_first": "Board Block LV1",
   "block.boardbrick.board_block_second": "Board Block LV2",
   "block.boardbrick.board_block_third": "Board Block LV3",
+  "block.boardbrick.board_block_fourth": "Board Block LV4",
+  "block.boardbrick.board_block_fifth": "Board Block LV5",
+  "block.boardbrick.board_block_sixth": "Board Block LV6",
+  "block.boardbrick.board_block_seventh": "Board Block LV7",
+  "block.boardbrick.board_block_eighth": "Board Block LV8",
+  "block.boardbrick.board_block_ninth": "Board Block LV9",
+  "block.boardbrick.board_block_super": "Board Block Super",
   "itemGroup.boardgroup": "Board Group"
 }

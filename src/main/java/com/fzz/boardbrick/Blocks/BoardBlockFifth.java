@@ -8,7 +8,7 @@ import net.minecraftforge.common.ToolType;
 public class BoardBlockFifth extends Block {
 
     public BoardBlockFifth() {
-        super(Properties.of(Material.STONE).strength(15, 500).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE).lightLevel(s -> 30).requiresCorrectToolForDrops().harvestLevel(4));
+        super(Properties.of(Material.STONE).strength(15, 500).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE).lightLevel(s -> 8).requiresCorrectToolForDrops().harvestLevel(4));
     }
 
 }

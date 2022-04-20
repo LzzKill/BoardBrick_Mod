@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "boardbrick:block/board_block_ninth"
+    }
+  }
+}
