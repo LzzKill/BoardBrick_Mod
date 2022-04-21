@@ -3,9 +3,9 @@ package com.fzz.boardbrick;
 import com.fzz.boardbrick.Blocks.*;
 import com.fzz.boardbrick.Items.BoardBrick;
 import com.fzz.boardbrick.Items.BoardBrick_Food;
-import com.fzz.boardbrick.Tools.Items.general.BoardBrickPickaxe;
-import com.fzz.boardbrick.Tools.Items.general.BoardBrickSword;
-import com.fzz.boardbrick.Tools.Items.plus.BoardBrickSword_Plus;
+import com.fzz.boardbrick.Tools.Items.GENERAL.*;
+import com.fzz.boardbrick.Tools.Items.PLUS.BoardBrickPickaxe_Plus;
+import com.fzz.boardbrick.Tools.Items.PLUS.BoardBrickSword_Plus;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -29,14 +29,19 @@ public class ObjectRegistry {
      * Registry tool
      */
 
-    //Sword
-    public static RegistryObject<Item> BoardBrickSward = ITEMS.register("board_brick_sward", () -> new BoardBrickSword());
-
-    //Pickaxe
+    //General
+    public static RegistryObject<Item> BoardBrickSward = ITEMS.register("board_brick_sword", () -> new BoardBrickSword());
     public static RegistryObject<Item> BoardBrickPickaxe = ITEMS.register("board_brick_pickaxe", () -> new BoardBrickPickaxe());
+    public static RegistryObject<Item> BoardbrickAxe = ITEMS.register("board_brick_axe", () -> new BoardBrickAxe());
+    public static RegistryObject<Item> BoardbrickShovel = ITEMS.register("board_brick_shovel", () -> new BoardBrickShovel());
+    public static RegistryObject<Item> BoardbrickHoe = ITEMS.register("board_brick_hoe", () -> new BoardBrickHoe());
 
-    //Plus
-    public static RegistryObject<Item> BoardBrickSward_Plus = ITEMS.register("board_brick_sward_plus", () -> new BoardBrickSword_Plus());
+    public static RegistryObject<Item> BoardBrickSward_Plus = ITEMS.register("board_brick_sword_plus", () -> new BoardBrickSword_Plus());
+    public static RegistryObject<Item> BoardBrickPickaxe_Plus = ITEMS.register("board_brick_pickaxe_plus", () -> new BoardBrickPickaxe_Plus());
+
+    //PlusPlus
+
+    //Super
 
 
     /*

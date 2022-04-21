@@ -7,13 +7,13 @@
   ],
   "key": {
     "M": {
-      "item": "boardbrick:board_block_first"
+      "item": "boardbrick:board_block_second"
     },
     "F": {
-      "item": "boardbrick:board_block_second"
+      "item": "boardbrick:board_block_third"
     }
   },
   "result": {
-    "item": "boardbrick:board_brick_food"
+    "item": "boardbrick:board_brick_pickaxe_plus"
   }
 }

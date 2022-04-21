@@ -1,4 +1,4 @@
-package com.fzz.boardbrick.Tools.Items.general;
+package com.fzz.boardbrick.Tools.Items.GENERAL;
 
 import com.fzz.boardbrick.Tools.ToolTier;
 import com.fzz.boardbrick.boardbrick;

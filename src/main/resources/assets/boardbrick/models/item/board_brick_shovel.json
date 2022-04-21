@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "boardbrick:item/board_brick_sward"
+    "layer0": "boardbrick:item/board_brick_shovel"
   }
 }

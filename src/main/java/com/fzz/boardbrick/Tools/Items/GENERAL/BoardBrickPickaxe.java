@@ -1,4 +1,4 @@
-package com.fzz.boardbrick.Tools.Items.general;
+package com.fzz.boardbrick.Tools.Items.GENERAL;
 
 import com.fzz.boardbrick.Tools.ToolTier;
 import com.fzz.boardbrick.boardbrick;
@@ -8,7 +8,7 @@ public class BoardBrickPickaxe extends PickaxeItem {
 
     public BoardBrickPickaxe() {
 
-        super(ToolTier.BoardBrickTool, -100, 1919806F, new Properties().tab(boardbrick.BoardGroup));
+        super(ToolTier.BoardBrickTool, -114518, 1919806F, new Properties().tab(boardbrick.BoardGroup));
 
     }
 
