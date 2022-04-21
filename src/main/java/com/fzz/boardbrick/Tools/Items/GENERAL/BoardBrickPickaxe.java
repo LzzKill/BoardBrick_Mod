@@ -8,7 +8,7 @@ public class BoardBrickPickaxe extends PickaxeItem {
 
     public BoardBrickPickaxe() {
 
-        super(ToolTier.BoardBrickTool, -114518, 1919806F, new Properties().tab(boardbrick.BoardGroup));
+        super(ToolTier.BoardBrickTool, -114519, 1919806F, new Properties().tab(boardbrick.BoardGroup));
 
     }
 

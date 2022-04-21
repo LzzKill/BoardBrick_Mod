@@ -17,7 +17,12 @@
   "advancements.boardbrick.getsuperblock.title": "do it!",
   "item.boardbrick.board_brick_sword": "Board Brick Sward",
   "item.boardbrick.board_brick_pickaxe": "Board Brick Pickaxe",
+  "item.boardbrick.board_brick_axe": "Board Brick Axe",
+  "item.boardbrick.board_brick_hoe": "Board Brick hoe",
+  "item.boardbrick.board_brick_shovel": "Board Brick Shovel",
   "item.boardbrick.board_brick_pickaxe_plus": "Board Brick Pickaxe Plus",
   "item.boardbrick.board_brick_sword_plus": "Board Brick sword Plus",
-  "itemGroup.boardgroup": "Board Group"
+  "itemGroup.boardgroup": "Board Group",
+  "advancements.boardbrick.tobeornottobe.title": "To be or not to be......",
+  "advancements.boardbrick.tobeornottobe.description": "This a question"
 }

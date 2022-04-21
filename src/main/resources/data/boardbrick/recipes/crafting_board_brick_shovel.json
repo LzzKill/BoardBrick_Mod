@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " F ",
+    " M ",
+    " M "
+  ],
+  "key": {
+    "M": {
+      "item": "boardbrick:board_block_first"
+    },
+    "F": {
+      "item": "boardbrick:board_block_second"
+    }
+  },
+  "result": {
+    "item": "boardbrick:board_brick_shovel"
+  }
+}
