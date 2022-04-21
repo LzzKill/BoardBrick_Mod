@@ -16,20 +16,25 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "rewards": {
-    "experience": 114514
-  },
   "criteria": {
-    "board_brick": {
+    "netherite_armor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "boardbrick:board_brick_axe",
-            "item": "boardbrick:board_brick_shovel",
-            "item": "boardbrick:board_brick_hoe",
-            "item": "boardbrick:board_brick_sword",
+            "item": "boardbrick:board_brick_axe"
+          },
+          {
             "item": "boardbrick:board_brick_pickaxe"
+          },
+          {
+            "item": "boardbrick:board_brick_hoe"
+          },
+          {
+            "item": "boardbrick:board_brick_sword"
+          },
+          {
+            "item": "boardbrick:board_brick_shovel"
           }
         ]
       }
