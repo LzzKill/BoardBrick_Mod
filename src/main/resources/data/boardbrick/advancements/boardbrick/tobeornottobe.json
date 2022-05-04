@@ -14,10 +14,10 @@
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "criteria": {
-    "netherite_armor": {
+    "tobeornottobe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -42,7 +42,7 @@
   },
   "requirements": [
     [
-      "board_brick"
+      "tobeornottobe"
     ]
   ]
 }

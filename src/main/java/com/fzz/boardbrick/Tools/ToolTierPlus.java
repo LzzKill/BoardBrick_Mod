@@ -21,14 +21,14 @@ public enum ToolTierPlus implements IItemTier {
     private final int enchantmentValue;
     private final LazyValue<Ingredient> repairIngredient;
 
-    private ToolTierPlus(int p_i48458_3_, int p_i48458_4_, float p_i48458_5_, float p_i48458_6_, int p_i48458_7_, Supplier<Ingredient> p_i48458_8_) {
-        this.level = p_i48458_3_;
-        this.uses = p_i48458_4_;
-        this.speed = p_i48458_5_;
-        this.damage = p_i48458_6_;
-        this.enchantmentValue = p_i48458_7_;
-        this.repairIngredient = new LazyValue<>(p_i48458_8_);
-    }
+     ToolTierPlus(int p_i48458_3_, int p_i48458_4_, float p_i48458_5_, float p_i48458_6_, int p_i48458_7_, Supplier<Ingredient> p_i48458_8_) {
+         this.level = p_i48458_3_;
+         this.uses = p_i48458_4_;
+         this.speed = p_i48458_5_;
+         this.damage = p_i48458_6_;
+         this.enchantmentValue = p_i48458_7_;
+         this.repairIngredient = new LazyValue<>(p_i48458_8_);
+     }
 
     public int getUses() {
         return this.uses;

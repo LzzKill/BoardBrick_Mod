@@ -35,6 +35,7 @@ public class ObjectRegistry {
     public static RegistryObject<Item> BoardbrickAxe = ITEMS.register("board_brick_axe", () -> new BoardBrickAxe());
     public static RegistryObject<Item> BoardbrickShovel = ITEMS.register("board_brick_shovel", () -> new BoardBrickShovel());
     public static RegistryObject<Item> BoardbrickHoe = ITEMS.register("board_brick_hoe", () -> new BoardBrickHoe());
+    public static RegistryObject<Item> BoardBrickBow = ITEMS.register("board_brick_bow", () -> new BoardBrickBow());
 
     public static RegistryObject<Item> BoardBrickSward_Plus = ITEMS.register("board_brick_sword_plus", () -> new BoardBrickSword_Plus());
     public static RegistryObject<Item> BoardBrickPickaxe_Plus = ITEMS.register("board_brick_pickaxe_plus", () -> new BoardBrickPickaxe_Plus());
