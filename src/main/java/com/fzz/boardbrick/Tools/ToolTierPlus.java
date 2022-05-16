@@ -13,7 +13,6 @@ public enum ToolTierPlus implements IItemTier {
 
     BoardBrickTool_Plus(boardbrick.MaxInt, boardbrick.MaxInt, boardbrick.MaxInt, boardbrick.MaxInt, boardbrick.MaxInt, () -> Ingredient.of(ObjectRegistry.BoardBrick.get()));
 
-
     private final int level;
     private final int uses;
     private final float speed;

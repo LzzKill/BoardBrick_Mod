@@ -3,23 +3,19 @@ BoardBrick Minecraft Mod
 
 #### <a harf="https://space.bilibili.com/626855532">My Bilibili</a> / <a harf="https://afdian.net/@IMFZZZZZZZZZZZZZZZZ">My Afdian</a> / <a harf="https://github.com/fzzkill">My Github</a>
 
-Enjoy the mod!
---------------
+# 弃坑说明：
 
-The mod add some Items and Blocks \
-You can use REI Mod with mine
+抱歉，很抱歉，我知道我现在直接弃坑是不对的 \
+但是我实在做不下去了 \
+并不是有了另一个mod或者是另一个项目就会放弃 \
+这是错的 \
+虽然很多项目都弃坑了...... \
+但是这MOD我是真的做不下去了 \
+但我最后还会努力的把这个mod做好，应该是这是我最后的希望了吧 \
+（这个往后可能会删，因为我已经有要弃坑的倾向了 \
 
-## And ...... Other!
+# 如果你真的喜欢这个MOD，请给我点个star或者发个电，这对我来说真的很重要！
 
-IDE: IntelliJ IDEA \
-Author: FzzKill
+# 别的
 
-Is there an abbreviation for this mod? If you like, you can use BBrick as his abbreviation, of course, if you use the
-full name (BoardBrick), I will not stop you
-
-##### What's it version
-
-Minecraft 1.16.5+ \
-Only Forge(In the future, it may support or update fabric mod upwards)
-
-# License : Mozilla Public License 2.0
+MOD缩写：BBK

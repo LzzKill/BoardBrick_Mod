@@ -2,7 +2,7 @@
   "parent": "boardbrick:boardbrick/root",
   "display": {
     "icon": {
-      "item": "boardbrick:board_block_sword",
+      "item": "boardbrick:board_brick_sword",
       "nbt": "{Damage:0}"
     },
     "title": {
