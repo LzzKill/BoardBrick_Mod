@@ -3,29 +3,30 @@ package com.fzz.boardbrick;
 import com.fzz.boardbrick.Blocks.*;
 import com.fzz.boardbrick.Items.BoardBrick;
 import com.fzz.boardbrick.Items.BoardBrick_Food;
-import com.fzz.boardbrick.Music.music_114514;
 import com.fzz.boardbrick.Tools.Items.GENERAL.*;
 import com.fzz.boardbrick.Tools.Items.PLUS.BoardBrickPickaxe_Plus;
 import com.fzz.boardbrick.Tools.Items.PLUS.BoardBrickSword_Plus;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.SoundEvent;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class ObjectRegistry {
 
-    //Registry Item Final
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, boardbrick.MODID);
-    //Registry Block Final
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, boardbrick.MODID);
+
+    public static final DeferredRegister<SoundEvent> SOUND_EVENT = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, boardbrick.MODID);
 
 
     public static RegistryObject<Item> BoardBrick = ITEMS.register("board_brick", () -> new BoardBrick()); //Return mod BUS
     public static RegistryObject<Item> BoardBrick_Item = ITEMS.register("board_brick_food", () -> new BoardBrick_Food()); //Return mod BUS
 
-    public static RegistryObject<Item> Music_114514 = ITEMS.register("music_114514", () -> new music_114514());
+    public static RegistryObject<SoundEvent> Music_114514 = SOUND_EVENT.register("music_114514", () -> new SoundEvent(new ResourceLocation(boardbrick.MODID, "music_114514")));
 
     /*
      * Registry tool

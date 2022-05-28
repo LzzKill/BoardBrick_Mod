@@ -1,0 +1,12 @@
+{
+  "music_114514": {
+    "subtitle": "music_114514",
+    "replace": "true",
+    "sounds": [
+      {
+        "name": "boardbrick:music_114514",
+        "stream": true
+      }
+    ]
+  }
+}

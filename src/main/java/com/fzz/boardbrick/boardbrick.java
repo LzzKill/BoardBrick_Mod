@@ -20,6 +20,7 @@ public class boardbrick {
     public boardbrick() { //申请MOD总线而不是申请Forge总线，因为这个东西基于事件系统
         ObjectRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus()); //Register event system
         ObjectRegistry.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus()); //Registry event system
+        ObjectRegistry.SOUND_EVENT.register(FMLJavaModLoadingContext.get().getModEventBus()); //Registry event system
     }
 
     //Create Group(or tab)

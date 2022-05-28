@@ -9,7 +9,6 @@ import java.net.URLEncoder;
 import java.nio.charset.Charset;
 
 public class rwm {
-
     private static String getConnection(String path) {
         try {
             HttpURLConnection conn = (HttpURLConnection) new URL(path).openConnection();
@@ -37,7 +36,6 @@ public class rwm {
     }
 
     public static String fanyi(String yw, int cishu) throws Exception {
-
         String S = fanyi(yw);
         for (int i = 0; i <= cishu; i++) S = fanyi(S);
         return S;
