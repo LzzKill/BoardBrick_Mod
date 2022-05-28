@@ -23,5 +23,7 @@
   "item.boardbrick.board_brick_hoe": "板砖锄",
   "item.boardbrick.board_brick_shovel": "板砖铲",
   "item.boardbrick.board_brick_bow": "Board Brick Pickaxe",
-  "itemGroup.boardgroup": "板砖 Mod"
+  "itemGroup.boardgroup": "板砖 Mod",
+  "item.boardbrick.music_114514": "114514",
+  "item.boardbrick.music_114514.disc": "-野兽先辈 114"
 }

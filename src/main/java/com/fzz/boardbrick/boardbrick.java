@@ -22,7 +22,7 @@ public class boardbrick {
         ObjectRegistry.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus()); //Registry event system
     }
 
-    //Create tab
+    //Create Group(or tab)
     public static class BoardGroup extends ItemGroup {
         public BoardGroup(String name) {
             super(name);

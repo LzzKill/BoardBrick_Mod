@@ -3,6 +3,7 @@ package com.fzz.boardbrick;
 import com.fzz.boardbrick.Blocks.*;
 import com.fzz.boardbrick.Items.BoardBrick;
 import com.fzz.boardbrick.Items.BoardBrick_Food;
+import com.fzz.boardbrick.Music.music_114514;
 import com.fzz.boardbrick.Tools.Items.GENERAL.*;
 import com.fzz.boardbrick.Tools.Items.PLUS.BoardBrickPickaxe_Plus;
 import com.fzz.boardbrick.Tools.Items.PLUS.BoardBrickSword_Plus;
@@ -20,10 +21,11 @@ public class ObjectRegistry {
     //Registry Block Final
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, boardbrick.MODID);
 
-    //注册，返回的是一个根方法类，用第一个BoardBrick举例
+
     public static RegistryObject<Item> BoardBrick = ITEMS.register("board_brick", () -> new BoardBrick()); //Return mod BUS
     public static RegistryObject<Item> BoardBrick_Item = ITEMS.register("board_brick_food", () -> new BoardBrick_Food()); //Return mod BUS
 
+    public static RegistryObject<Item> Music_114514 = ITEMS.register("music_114514", () -> new music_114514());
 
     /*
      * Registry tool
@@ -37,12 +39,9 @@ public class ObjectRegistry {
     public static RegistryObject<Item> BoardbrickHoe = ITEMS.register("board_brick_hoe", () -> new BoardBrickHoe());
     public static RegistryObject<Item> BoardBrickBow = ITEMS.register("board_brick_bow", () -> new BoardBrickBow());
 
+    //Plus
     public static RegistryObject<Item> BoardBrickSward_Plus = ITEMS.register("board_brick_sword_plus", () -> new BoardBrickSword_Plus());
     public static RegistryObject<Item> BoardBrickPickaxe_Plus = ITEMS.register("board_brick_pickaxe_plus", () -> new BoardBrickPickaxe_Plus());
-
-    //PlusPlus
-
-    //Super
 
 
     /*
