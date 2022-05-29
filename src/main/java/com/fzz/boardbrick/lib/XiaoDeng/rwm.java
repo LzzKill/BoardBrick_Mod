@@ -6,7 +6,7 @@ import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
-import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 
 public class rwm {
     private static String getConnection(String path) {
@@ -14,9 +14,8 @@ public class rwm {
             HttpURLConnection conn = (HttpURLConnection) new URL(path).openConnection();
             conn.setRequestMethod("GET");
             conn.setConnectTimeout(5000);
-            if (conn.getResponseCode() == 200) return new String(read(conn.getInputStream()), Charset.forName("UTF-8"));
+            if (conn.getResponseCode() == 200) return new String(read(conn.getInputStream()), StandardCharsets.UTF_8);
         } catch (Exception e) {
-            e.printStackTrace();
         }
         return null;
     }

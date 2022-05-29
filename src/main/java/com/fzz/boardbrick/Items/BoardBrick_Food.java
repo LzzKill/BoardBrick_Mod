@@ -3,7 +3,6 @@ package com.fzz.boardbrick.Items;
 import com.fzz.boardbrick.boardbrick;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 
@@ -22,4 +21,3 @@ public class BoardBrick_Food extends Item {
                 alwaysEat().fast().meat().nutrition(100).saturationMod(5.0f).build()));
     }
 }
-//Strength
