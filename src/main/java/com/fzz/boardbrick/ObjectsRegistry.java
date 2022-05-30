@@ -1,6 +1,8 @@
 package com.fzz.boardbrick;
 
-import com.fzz.boardbrick.Blocks.*;
+import com.fzz.boardbrick.Blocks.BoardBlocks;
+import com.fzz.boardbrick.Blocks.OtherBlocks_List.BoardBlockEighth_Copy;
+import com.fzz.boardbrick.Blocks.OtherBlocks_List.BoardBlockSuper;
 import com.fzz.boardbrick.Items.BoardBrick_Food;
 import com.fzz.boardbrick.Tools.Items.BoardBrick_Tools;
 import com.fzz.boardbrick.Tools.Items.BoardBrick_Tools_Plus;
@@ -41,15 +43,15 @@ public class ObjectsRegistry {
     public static RegistryObject<Item> BShovelPlus = ITEMS.register("board_brick_shovel_plus", BoardBrick_Tools_Plus.BoardBrickShovel_Plus::new);
     public static RegistryObject<Item> BHoePlus = ITEMS.register("board_brick_hoe_plus", BoardBrick_Tools_Plus.BoardBrickHoe_Plus::new);
 
-    public static RegistryObject<Block> A = BLOCKS.register("board_block_first", BoardBlockFirst::new);
-    public static RegistryObject<Block> B = BLOCKS.register("board_block_second", BoardBlockSecond::new);
-    public static RegistryObject<Block> C = BLOCKS.register("board_block_third", BoardBlockThird::new);
-    public static RegistryObject<Block> D = BLOCKS.register("board_block_fourth", BoardBlockFourth::new);
-    public static RegistryObject<Block> E = BLOCKS.register("board_block_fifth", BoardBlockFifth::new);
-    public static RegistryObject<Block> F = BLOCKS.register("board_block_sixth", BoardBlockSixth::new);
-    public static RegistryObject<Block> G = BLOCKS.register("board_block_seventh", BoardBlockSeventh::new);
-    public static RegistryObject<Block> H = BLOCKS.register("board_block_eighth", BoardBlockEighth::new);
-    public static RegistryObject<Block> I = BLOCKS.register("board_block_ninth", BoardBlockNinth::new);
+    public static RegistryObject<Block> A = BLOCKS.register("board_block_first", BoardBlocks.BoardBlockFifth::new);
+    public static RegistryObject<Block> B = BLOCKS.register("board_block_second", BoardBlocks.BoardBlockSecond::new);
+    public static RegistryObject<Block> C = BLOCKS.register("board_block_third", BoardBlocks.BoardBlockThird::new);
+    public static RegistryObject<Block> D = BLOCKS.register("board_block_fourth", BoardBlocks.BoardBlockFourth::new);
+    public static RegistryObject<Block> E = BLOCKS.register("board_block_fifth", BoardBlocks.BoardBlockFifth::new);
+    public static RegistryObject<Block> F = BLOCKS.register("board_block_sixth", BoardBlocks.BoardBlockSixth::new);
+    public static RegistryObject<Block> G = BLOCKS.register("board_block_seventh", BoardBlocks.BoardBlockSeventh::new);
+    public static RegistryObject<Block> H = BLOCKS.register("board_block_eighth", BoardBlocks.BoardBlockEighth::new);
+    public static RegistryObject<Block> I = BLOCKS.register("board_block_ninth", BoardBlocks.BoardBlockNinth::new);
     public static RegistryObject<Block> J = BLOCKS.register("board_block_super", BoardBlockSuper::new);
 
     public static RegistryObject<Item> a = ITEMS.register("board_block_first", () -> new BlockItem(A.get(), GROUP));
