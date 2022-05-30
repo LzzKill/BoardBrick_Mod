@@ -2,10 +2,7 @@ package com.fzz.boardbrick;
 
 import com.fzz.boardbrick.Blocks.*;
 import com.fzz.boardbrick.Items.BoardBrick_Food;
-import com.fzz.boardbrick.Tools.Items.GENERAL.BoardBrickAxe;
-import com.fzz.boardbrick.Tools.Items.GENERAL.BoardBrickHoe;
-import com.fzz.boardbrick.Tools.Items.GENERAL.BoardBrickShovel;
-import com.fzz.boardbrick.Tools.Items.GENERAL.BoardBrickSword;
+import com.fzz.boardbrick.Tools.Items.BoardBrick_Tools;
 import com.fzz.boardbrick.Tools.Items.PLUS.BoardBrickSword_Plus;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -16,7 +13,7 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
-public class ObjectRegistry {
+public class ObjectsRegistry {
 
     public static final Item.Properties GROUP = new Item.Properties().tab(boardbrick.BoardGroup);
 
@@ -31,12 +28,12 @@ public class ObjectRegistry {
     public static RegistryObject<SoundEvent> meaSound = SOUND_EVENT.register("mea", () -> new SoundEvent(new ResourceLocation(boardbrick.MODID, "mea")));
     public static RegistryObject<Item> mea = ITEMS.register("mea", com.fzz.boardbrick.Music.mea::new);
 
-    public static RegistryObject<Item> BoardBrickSward = ITEMS.register("board_brick_sword", BoardBrickSword::new);
-    public static RegistryObject<Item> BoardBrickPickaxe = ITEMS.register("board_brick_pickaxe", com.fzz.boardbrick.Tools.Items.GENERAL.BoardBrickPickaxe::new);
-    public static RegistryObject<Item> BoardbrickAxe = ITEMS.register("board_brick_axe", BoardBrickAxe::new);
-    public static RegistryObject<Item> BoardbrickShovel = ITEMS.register("board_brick_shovel", BoardBrickShovel::new);
-    public static RegistryObject<Item> BoardbrickHoe = ITEMS.register("board_brick_hoe", BoardBrickHoe::new);
-    public static RegistryObject<Item> BoardBrickBow = ITEMS.register("board_brick_bow", com.fzz.boardbrick.Tools.Items.GENERAL.BoardBrickBow::new);
+    public static RegistryObject<Item> BSword = ITEMS.register("board_brick_sword", BoardBrick_Tools.BoardBrickAxe::new);
+    public static RegistryObject<Item> BPickaxe = ITEMS.register("board_brick_pickaxe", BoardBrick_Tools.BoardBrickPickaxe::new);
+    public static RegistryObject<Item> BAxe = ITEMS.register("board_brick_axe", BoardBrick_Tools.BoardBrickAxe::new);
+    public static RegistryObject<Item> BShovel = ITEMS.register("board_brick_shovel", BoardBrick_Tools.BoardBrickShovel::new);
+    public static RegistryObject<Item> BHoe = ITEMS.register("board_brick_hoe", BoardBrick_Tools.BoardBrickHoe::new);
+    public static RegistryObject<Item> BBow = ITEMS.register("board_brick_bow", BoardBrick_Tools.BoardBrickBow::new);
 
     public static RegistryObject<Item> BoardBrickSward_Plus = ITEMS.register("board_brick_sword_plus", BoardBrickSword_Plus::new);
     public static RegistryObject<Item> BoardBrickPickaxe_Plus = ITEMS.register("board_brick_pickaxe_plus", com.fzz.boardbrick.Tools.Items.PLUS.BoardBrickPickaxe_Plus::new);

@@ -1,7 +1,6 @@
 package com.fzz.boardbrick.Tools.Items.PLUS;
 
 import com.fzz.boardbrick.ObjectRegistry;
-import com.fzz.boardbrick.Tools.ToolTierPlus;
 import com.fzz.boardbrick.boardbrick;
 import net.minecraft.item.SwordItem;
 
