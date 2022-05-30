@@ -1,4 +1,4 @@
-package com.fzz.boardbrick.Items;
+package com.fzz.boardbrick.Items.Food;
 
 import com.fzz.boardbrick.boardbrick;
 import net.minecraft.item.Food;
@@ -13,10 +13,7 @@ public class BoardBrick_Food extends Item {
                 effect(() ->new EffectInstance(Effects.REGENERATION, 1000000, 255), 1f).
                 effect(() ->new EffectInstance(Effects.DAMAGE_RESISTANCE, 1000000, 255), 1f).
                 effect(() ->new EffectInstance(Effects.SATURATION, 1000000, 255), 1f).
-                effect(() ->new EffectInstance(Effects.ABSORPTION, 1000000, 255), 1f).
                 effect(() ->new EffectInstance(Effects.FIRE_RESISTANCE, 1000000, 255), 1f).
-                effect(() ->new EffectInstance(Effects.LUCK, 1000000, 255), 1f).
-                effect(() ->new EffectInstance(Effects.HEALTH_BOOST, 1000000, 255), 1f).
                 effect(() ->new EffectInstance(Effects.DAMAGE_BOOST, 1000000, 255), 1f).
                 alwaysEat().fast().meat().nutrition(100).saturationMod(5.0f).build()));
     }
