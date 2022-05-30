@@ -1,6 +1,6 @@
-package com.fzz.boardbrick.Tools.Items;
+package com.fzz.boardbrick.Tools.Items.ToolTier;
 
-import com.fzz.boardbrick.ObjectRegistry;
+import com.fzz.boardbrick.ObjectsRegistry;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.LazyValue;
@@ -10,7 +10,7 @@ import java.util.function.Supplier;
 public enum ToolTier implements IItemTier {
 
 
-    BoardBrickTool(11, 114514, 1919810F, 4.0F, 20, () -> Ingredient.of(ObjectRegistry.BoardBrick.get()));
+    BoardBrickTool(11, 114514, 1919810F, 4.0F, 20, () -> Ingredient.of(ObjectsRegistry.BoardBrick.get()));
 
 
     private final int level;

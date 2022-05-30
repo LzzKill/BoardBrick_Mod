@@ -1,6 +1,4 @@
 {
-  "item.boardbrick.board_brick": "板砖",
-  "item.boardbrick.board_brick_food": "能吃的板砖",
   "block.boardbrick.board_block_first": "板砖砖_1",
   "block.boardbrick.board_block_second": "板砖砖砖_2",
   "block.boardbrick.board_block_third": "板砖砖砖砖_3",
@@ -16,15 +14,20 @@
   "advancements.boardbrick.root.title": "你赢了！",
   "advancements.boardbrick.getsuperblock.description": "好吧，我承认我对你的劝说没用",
   "advancements.boardbrick.getsuperblock.title": "不要做！",
+  "item.boardbrick.board_brick": "板砖",
+  "item.boardbrick.board_brick_food": "能吃的板砖",
   "item.boardbrick.board_brick_sword": "板砖剑",
   "item.boardbrick.board_brick_pickaxe": "板砖稿",
-  "item.boardbrick.board_brick_pickaxe_plus": "板砖稿+",
-  "item.boardbrick.board_brick_sword_plus": "板砖剑+",
   "item.boardbrick.board_brick_axe": "板砖斧",
   "item.boardbrick.board_brick_hoe": "板砖锄",
   "item.boardbrick.board_brick_shovel": "板砖铲",
   "item.boardbrick.board_brick_bow": "板砖弓",
-  "itemGroup.boardgroup": "板砖 Mod",
+  "item.boardbrick.board_brick_pickaxe_plus": "板砖稿+",
+  "item.boardbrick.board_brick_sword_plus": "板砖剑+",
+  "item.boardbrick.board_brick_axe_plus": "板砖斧+",
+  "item.boardbrick.board_brick_hoe_plus": "板砖锄+",
+  "item.boardbrick.board_brick_shovel_plus": "板砖铲+",
   "item.boardbrick.mea": "114514",
-  "item.boardbrick.mea.desc": "-野兽先辈 114"
+  "item.boardbrick.mea.desc": "-野兽先辈 114",
+  "itemGroup.boardgroup": "板砖 Mod"
 }
