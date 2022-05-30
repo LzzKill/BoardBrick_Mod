@@ -59,6 +59,8 @@ public class ObjectRegistry {
     public static RegistryObject<Block> I = BLOCKS.register("board_block_ninth", BoardBlockNinth::new);
     public static RegistryObject<Block> J = BLOCKS.register("board_block_super", BoardBlockSuper::new);
 
+    public static RegistryObject<Block> H_ = BLOCKS.register("board_block_eighth_copy", BoardBlockEighth_Copy::new);
+
     public static RegistryObject<Item> a = ITEMS.register("board_block_first", () -> new BlockItem(A.get(), GROUP));
     public static RegistryObject<Item> b = ITEMS.register("board_block_second", () -> new BlockItem(B.get(), GROUP));
     public static RegistryObject<Item> c = ITEMS.register("board_block_third", () -> new BlockItem(C.get(), GROUP));
@@ -70,5 +72,5 @@ public class ObjectRegistry {
     public static RegistryObject<Item> i = ITEMS.register("board_block_ninth", () -> new BlockItem(I.get(), GROUP));
     public static RegistryObject<Item> j = ITEMS.register("board_block_super", () -> new BlockItem(J.get(), GROUP));
 
-
+    public static RegistryObject<Item> h_ = ITEMS.register("board_block_eighth_copy", () -> new BlockItem(H_.get(), GROUP));
 }

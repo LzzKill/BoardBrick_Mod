@@ -9,7 +9,7 @@ public class mea extends MusicDiscItem {
 
     public mea() {
 
-        super(114, () -> ObjectRegistry.meaSound.get(), new Item.Properties().tab(boardbrick.BoardGroup).defaultDurability(1));
+        super(114, () -> ObjectRegistry.meaSound.get(), new Item.Properties().tab(boardbrick.BoardGroup).durability(1));
 
     }
 }
