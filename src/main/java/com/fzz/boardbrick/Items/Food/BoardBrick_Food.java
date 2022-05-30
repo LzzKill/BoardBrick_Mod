@@ -10,11 +10,14 @@ public class BoardBrick_Food extends Item {
 
     public BoardBrick_Food() {
         super(new Properties().tab(boardbrick.BoardGroup).food(new Food.Builder().
-                effect(() ->new EffectInstance(Effects.REGENERATION, 1000000, 255), 1f).
-                effect(() ->new EffectInstance(Effects.DAMAGE_RESISTANCE, 1000000, 255), 1f).
-                effect(() ->new EffectInstance(Effects.SATURATION, 1000000, 255), 1f).
-                effect(() ->new EffectInstance(Effects.FIRE_RESISTANCE, 1000000, 255), 1f).
-                effect(() ->new EffectInstance(Effects.DAMAGE_BOOST, 1000000, 255), 1f).
+                effect(() -> new EffectInstance(Effects.REGENERATION, 12000, 255), 1f).
+                effect(() -> new EffectInstance(Effects.DIG_SPEED, 12000, 4), 1f).
+                effect(() -> new EffectInstance(Effects.DAMAGE_RESISTANCE, 12000, 5), 1f).
+                effect(() -> new EffectInstance(Effects.SATURATION, 12000, 255), 1f).
+                effect(() -> new EffectInstance(Effects.FIRE_RESISTANCE, 12000, 1), 1f).
+                effect(() -> new EffectInstance(Effects.DAMAGE_BOOST, 12000, 255), 1f).
+                effect(() -> new EffectInstance(Effects.WATER_BREATHING, 12000, 1), 1f).
+                effect(() -> new EffectInstance(Effects.NIGHT_VISION, 12000, 1), 1f).
                 alwaysEat().fast().meat().nutrition(100).saturationMod(5.0f).build()));
     }
 }
