@@ -9,7 +9,7 @@ import net.minecraftforge.common.ToolType;
 public class BoardBlockNinth extends Block {
 
     public BoardBlockNinth() {
-        super(Properties.of(Material.STONE).strength(15, boardbrick.MaxInt).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE).lightLevel(s -> 16).requiresCorrectToolForDrops().harvestLevel(5));
+        super(Properties.of(Material.STONE).strength(9999, boardbrick.MaxInt).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE).lightLevel(s -> 16).requiresCorrectToolForDrops().harvestLevel(5));
     }
 
 }

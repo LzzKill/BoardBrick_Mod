@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "boardbrick:board_block_eighth"
+    },
+    {
+      "item": "boardbrick:board_block_eighth"
+    },
+    {
+      "item": "boardbrick:board_block_eighth"
+    },
+    {
+      "item": "boardbrick:board_block_eighth"
+    }
+  ],
+  "result": {
+    "item": "boardbrick:board_block_eighth_copy",
+    "count": 64
+  }
+}
