@@ -1,17 +1,17 @@
-package com.fzz.boardbrick.Tools;
+package com.fzz.boardbrick.Tools.Items;
 
 import com.fzz.boardbrick.ObjectRegistry;
-import com.fzz.boardbrick.boardbrick;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.LazyValue;
 
 import java.util.function.Supplier;
 
-public enum ToolTierPlus implements IItemTier {
+public enum ToolTier implements IItemTier {
 
 
-    BoardBrickTool_Plus(boardbrick.MaxInt, boardbrick.MaxInt, boardbrick.MaxInt, boardbrick.MaxInt, boardbrick.MaxInt, () -> Ingredient.of(ObjectRegistry.BoardBrick.get()));
+    BoardBrickTool(11, 114514, 1919810F, 4.0F, 20, () -> Ingredient.of(ObjectRegistry.BoardBrick.get()));
+
 
     private final int level;
     private final int uses;
@@ -20,14 +20,14 @@ public enum ToolTierPlus implements IItemTier {
     private final int enchantmentValue;
     private final LazyValue<Ingredient> repairIngredient;
 
-     ToolTierPlus(int p_i48458_3_, int p_i48458_4_, float p_i48458_5_, float p_i48458_6_, int p_i48458_7_, Supplier<Ingredient> p_i48458_8_) {
-         this.level = p_i48458_3_;
-         this.uses = p_i48458_4_;
-         this.speed = p_i48458_5_;
-         this.damage = p_i48458_6_;
-         this.enchantmentValue = p_i48458_7_;
-         this.repairIngredient = new LazyValue<>(p_i48458_8_);
-     }
+    ToolTier(int p_i48458_3_, int p_i48458_4_, float p_i48458_5_, float p_i48458_6_, int p_i48458_7_, Supplier<Ingredient> p_i48458_8_) {
+        this.level = p_i48458_3_;
+        this.uses = p_i48458_4_;
+        this.speed = p_i48458_5_;
+        this.damage = p_i48458_6_;
+        this.enchantmentValue = p_i48458_7_;
+        this.repairIngredient = new LazyValue<>(p_i48458_8_);
+    }
 
     public int getUses() {
         return this.uses;

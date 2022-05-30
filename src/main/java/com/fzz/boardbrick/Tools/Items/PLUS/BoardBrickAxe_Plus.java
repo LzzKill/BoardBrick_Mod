@@ -2,11 +2,11 @@ package com.fzz.boardbrick.Tools.Items.PLUS;
 
 import com.fzz.boardbrick.ObjectRegistry;
 import com.fzz.boardbrick.boardbrick;
-import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.AxeItem;
 
-public class BoardBrickPickaxe_Plus extends PickaxeItem {
+public class BoardBrickAxe_Plus extends AxeItem {
 
-    public BoardBrickPickaxe_Plus() {
+    public BoardBrickAxe_Plus() {
 
         super(ToolTierPlus.BoardBrickTool_Plus, boardbrick.MaxInt, boardbrick.MaxInt, ObjectRegistry.GROUP);
 
