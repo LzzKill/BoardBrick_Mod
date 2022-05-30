@@ -1,4 +1,4 @@
-package com.fzz.boardbrick.Blocks;
+package com.fzz.boardbrick.Blocks.OtherBlocks_List;
 
 import com.fzz.boardbrick.boardbrick;
 import net.minecraft.block.Block;
