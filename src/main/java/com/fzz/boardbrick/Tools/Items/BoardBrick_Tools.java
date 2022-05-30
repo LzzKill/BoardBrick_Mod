@@ -1,44 +1,72 @@
 package com.fzz.boardbrick.Tools.Items;
 
-import com.fzz.boardbrick.ObjectsRegistry;
 import com.fzz.boardbrick.Tools.Items.ToolTier.ToolTier;
+import com.fzz.boardbrick.boardbrick;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.*;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.util.ActionResult;
+import net.minecraft.util.Hand;
+import net.minecraft.world.World;
+
+import java.util.function.Predicate;
 
 public class BoardBrick_Tools {
 
     public static class BoardBrickAxe extends AxeItem {
         public BoardBrickAxe() {
-            super(ToolTier.BoardBrickTool, -114519, 1919806F, ObjectsRegistry.GROUP);
+            super(ToolTier.BoardBrickTool, -114519, 1919806F, new Properties().tab(boardbrick.BoardGroup));
         }
     }
 
     public static class BoardBrickHoe extends HoeItem {
         public BoardBrickHoe() {
-            super(ToolTier.BoardBrickTool, -114519, 1919806F, ObjectsRegistry.GROUP);
+            super(ToolTier.BoardBrickTool, -114519, 1919806F, new Properties().tab(boardbrick.BoardGroup));
         }
     }
 
     public static class BoardBrickPickaxe extends PickaxeItem {
         public BoardBrickPickaxe() {
-            super(ToolTier.BoardBrickTool, -114519, 1919806F, ObjectsRegistry.GROUP);
+            super(ToolTier.BoardBrickTool, -114519, 1919806F, new Properties().tab(boardbrick.BoardGroup));
         }
     }
 
     public static class BoardBrickShovel extends ShovelItem {
         public BoardBrickShovel() {
-            super(ToolTier.BoardBrickTool, -114519, 1919806F, ObjectsRegistry.GROUP);
+            super(ToolTier.BoardBrickTool, -114519, 1919806F, new Properties().tab(boardbrick.BoardGroup));
         }
     }
 
     public static class BoardBrickSword extends SwordItem {
         public BoardBrickSword() {
-            super(ToolTier.BoardBrickTool, 114509, 1919806F, ObjectsRegistry.GROUP);
+            super(ToolTier.BoardBrickTool, 114509, 1919806F, new Properties().tab(boardbrick.BoardGroup));
         }
     }
 
     public static class BoardBrickBow extends BowItem {
+        public static final Predicate<ItemStack> Range = (range) -> {
+            return range.getItem().is(ItemTags.ARROWS);
+        };
+
         public BoardBrickBow() {
-            super(ObjectsRegistry.GROUP);
+            super(new Properties().tab(boardbrick.BoardGroup));
+        }
+
+        @Override
+        public int getDefaultProjectileRange() {
+            return 200;
+        }
+
+        @Override
+        public ActionResult<ItemStack> use(World p_77659_1_, PlayerEntity p_77659_2_, Hand p_77659_3_) {
+            ItemStack itemstack = p_77659_2_.getItemInHand(p_77659_3_);
+            if (!p_77659_2_.abilities.instabuild) {
+                return ActionResult.fail(itemstack);
+            } else {
+                p_77659_2_.startUsingItem(p_77659_3_);
+                return ActionResult.consume(itemstack);
+            }
+
         }
     }
 

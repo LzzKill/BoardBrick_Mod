@@ -40,7 +40,8 @@ public class BoardBrick_Food_Plus extends Item {
                 effect(() -> new EffectInstance(Effects.SLOW_FALLING, 1000000, 255), 1f).
                 effect(() -> new EffectInstance(Effects.CONDUIT_POWER, 1000000, 255), 1f).
                 effect(() -> new EffectInstance(Effects.DOLPHINS_GRACE, 1000000, 255), 1f).
-                effect(() -> new EffectInstance(Effects.BAD_OMEN, 1000000, 255), 1f).
+                effect(() -> new EffectInstance(Effects.BAD_OMEN, 1000000, 255), 1f).effect(() -> new EffectInstance(Effects.BAD_OMEN, 1000000, 255), 1f).
+                effect(() -> new EffectInstance(Effects.HERO_OF_THE_VILLAGE, 1000000, 255), 1f).effect(() -> new EffectInstance(Effects.BAD_OMEN, 1000000, 255), 1f).
                 alwaysEat().nutrition(100).saturationMod(5.0f).build()));
     }
 

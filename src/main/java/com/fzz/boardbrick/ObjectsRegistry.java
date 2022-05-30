@@ -24,7 +24,7 @@ public class ObjectsRegistry {
 
     public static RegistryObject<Item> BoardBrick = ITEMS.register("board_brick", com.fzz.boardbrick.Items.BoardBrick::new); //Return mod BUS
     public static RegistryObject<Item> BoardBrick_Food = ITEMS.register("board_brick_food", BoardBrick_Food::new); //Return mod BUS
-    public static RegistryObject<Item> BoardBrick_Food_Plus = ITEMS.register("board_brick_plus", BoardBrick_Food_Plus::new); //Return mod BUS
+    public static RegistryObject<Item> BoardBrick_Food_Plus = ITEMS.register("board_brick_food_plus", BoardBrick_Food_Plus::new); //Return mod BUS
 
     public static RegistryObject<SoundEvent> meaSound = SOUND_EVENT.register("mea", () -> new SoundEvent(new ResourceLocation(boardbrick.MODID, "mea")));
     public static RegistryObject<Item> mea = ITEMS.register("mea", com.fzz.boardbrick.Music.mea::new);

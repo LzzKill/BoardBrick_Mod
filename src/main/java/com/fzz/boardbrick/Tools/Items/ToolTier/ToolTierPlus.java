@@ -11,7 +11,7 @@ import java.util.function.Supplier;
 public enum ToolTierPlus implements IItemTier {
 
 
-    BoardBrickTool_Plus(boardbrick.MaxInt, boardbrick.MaxInt, boardbrick.MaxInt, boardbrick.MaxInt, boardbrick.MaxInt, () -> Ingredient.of(ObjectsRegistry.BoardBrick.get()));
+    BoardBrickTool_Plus(boardbrick.MaxInt, boardbrick.MaxInt, boardbrick.MaxInt, boardbrick.MaxInt, 1, () -> Ingredient.of(ObjectsRegistry.BoardBrick.get()));
 
     private final int level;
     private final int uses;

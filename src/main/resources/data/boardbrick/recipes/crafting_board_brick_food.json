@@ -1,13 +1,19 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "BBB"
-  ],
-  "key": {
-    "B": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "boardbrick:board_brick"
+    },
+    {
+      "item": "boardbrick:board_brick"
+    },
+    {
+      "item": "boardbrick:board_brick"
+    },
+    {
       "item": "boardbrick:board_brick"
     }
-  },
+  ],
   "result": {
     "item": "boardbrick:board_brick_food"
   }
