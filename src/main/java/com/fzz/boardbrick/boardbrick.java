@@ -11,8 +11,6 @@ public class boardbrick {
     public static final String MODID = "boardbrick";
 
     public static final int MaxInt = 2147483647;
-    public static final long MaxLong = 9223372036854775807L;
-    public static final double MaxDouble = 0x1.fffffffffffffP+1023;
 
     public static final ItemGroup BoardGroup = new boardbrick.BoardGroup("boardgroup");
     //BoardBrick
