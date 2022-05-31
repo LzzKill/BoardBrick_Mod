@@ -60,14 +60,23 @@ public class BoardBrick_Tools {
         @Override
         public ActionResult<ItemStack> use(World p_77659_1_, PlayerEntity p_77659_2_, Hand p_77659_3_) {
             ItemStack itemstack = p_77659_2_.getItemInHand(p_77659_3_);
-            if (!p_77659_2_.abilities.instabuild) {
+            boolean flag = !p_77659_2_.getProjectile(itemstack).isEmpty();
+
+            ActionResult<ItemStack> ret = net.minecraftforge.event.ForgeEventFactory.onArrowNock(itemstack, p_77659_1_, p_77659_2_, p_77659_3_, flag);
+            if (ret != null) {
+                p_77659_2_.giveExperiencePoints(1);
+                return ret;
+            }
+            ;
+
+            if (!p_77659_2_.abilities.instabuild && !flag) {
                 return ActionResult.fail(itemstack);
             } else {
                 p_77659_2_.startUsingItem(p_77659_3_);
                 return ActionResult.consume(itemstack);
             }
-
         }
+
     }
 
 }

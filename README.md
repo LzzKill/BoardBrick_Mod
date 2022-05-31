@@ -1,7 +1,8 @@
 BoardBrick Minecraft Mod
 ========================
 
-#### <a harf="https://space.bilibili.com/626855532">My Bilibili</a> / <a harf="https://afdian.net/@IMFZZZZZZZZZZZZZZZZ">My Afdian</a> / <a harf="https://github.com/fzzkill">My Github</a>
+<a harf="https://space.bilibili.com/626855532">My Bilibili</a> / <a harf="https://afdian.net/@IMFZZZZZZZZZZZZZZZZ">My
+Afdian</a> / <a harf="https://github.com/fzzkill">My Github</a>
 
 这个mod已经开始面向于整活向了
 这个mod已经差不多完结了（指时不时会更新
