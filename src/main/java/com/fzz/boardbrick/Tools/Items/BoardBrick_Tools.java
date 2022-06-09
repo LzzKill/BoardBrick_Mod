@@ -67,7 +67,6 @@ public class BoardBrick_Tools {
                 p_77659_2_.giveExperiencePoints(1);
                 return ret;
             }
-            ;
 
             if (!p_77659_2_.abilities.instabuild && !flag) {
                 return ActionResult.fail(itemstack);

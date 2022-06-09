@@ -30,6 +30,13 @@
   "item.boardbrick.board_brick_axe_plus": "Board Brick Axe Plus",
   "item.boardbrick.board_brick_hoe_plus": "Board Brick Hoe Plus",
   "item.boardbrick.board_brick_shovel_plus": "Board Brick Shovel Plus",
+  "item.boardbrick.axe_super": "Super Axe",
+  "item.boardbrick.pickaxe_super": "Super Pickaxe",
+  "item.boardbrick.sword_super": "Super Sword",
+  "item.boardbrick.hoe_super": "Super Hoe",
+  "item.boardbrick.shovel_super": "Super Shovel",
+  "item.boardbrick.bow_super": "Super Bow",
+  "item.boardbrick.shears_super": "Super Shears",
   "itemGroup.boardgroup": "Board Group",
   "item.boardbrick.mea": "114514",
   "item.boardbrick.mea.desc": "-野兽先辈 114"

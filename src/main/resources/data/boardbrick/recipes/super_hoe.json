@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MM ",
+    " M ",
+    " M "
+  ],
+  "key": {
+    "M": {
+      "item": "boardbrick:board_block_fourth"
+    }
+  },
+  "result": {
+    "item": "boardbrick:pickaxe_hoe"
+  }
+}

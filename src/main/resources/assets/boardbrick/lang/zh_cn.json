@@ -28,6 +28,13 @@
   "item.boardbrick.board_brick_axe_plus": "板砖斧+",
   "item.boardbrick.board_brick_hoe_plus": "板砖锄+",
   "item.boardbrick.board_brick_shovel_plus": "板砖铲+",
+  "item.boardbrick.axe_super": "自然荒芜者",
+  "item.boardbrick.pickaxe_super": "地域崩坏者",
+  "item.boardbrick.sword_super": "万物碾杀者",
+  "item.boardbrick.hoe_super": "生灵救赎者",
+  "item.boardbrick.shovel_super": "土地吞噬者",
+  "item.boardbrick.bow_super": "弱不禁风者",
+  "item.boardbrick.shears_super": "植物毁灭者",
   "item.boardbrick.mea": "114514",
   "item.boardbrick.mea.desc": "-野兽先辈 114",
   "itemGroup.boardgroup": "板砖 Mod"

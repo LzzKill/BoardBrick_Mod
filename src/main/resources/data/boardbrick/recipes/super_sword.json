@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    " M ",
+    " F "
+  ],
+  "key": {
+    "M": {
+      "item": "boardbrick:board_block_fourth"
+    },
+    "F": {
+      "item": "boardbrick:board_block_fifth"
+    }
+  },
+  "result": {
+    "item": "boardbrick:sword_super"
+  }
+}
