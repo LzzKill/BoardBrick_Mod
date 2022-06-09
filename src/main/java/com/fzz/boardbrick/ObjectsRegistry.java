@@ -7,6 +7,7 @@ import com.fzz.boardbrick.Items.Food.BoardBrick_Food;
 import com.fzz.boardbrick.Items.Food.BoardBrick_Food_Plus;
 import com.fzz.boardbrick.Tools.Items.BoardBrick_Tools;
 import com.fzz.boardbrick.Tools.Items.BoardBrick_Tools_Plus;
+import com.fzz.boardbrick.Tools.Material.gen;
 import com.fzz.boardbrick.Tools.Super.Items;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -36,7 +37,6 @@ public class ObjectsRegistry {
     public static RegistryObject<Item> BShovel = ITEMS.register("board_brick_shovel", BoardBrick_Tools.BoardBrickShovel::new);
     public static RegistryObject<Item> BHoe = ITEMS.register("board_brick_hoe", BoardBrick_Tools.BoardBrickHoe::new);
     public static RegistryObject<Item> BBow = ITEMS.register("board_brick_bow", BoardBrick_Tools.BoardBrickBow::new);
-
     public static RegistryObject<Item> BSwordPlus = ITEMS.register("board_brick_sword_plus", BoardBrick_Tools_Plus.BoardBrickSword_Plus::new);
     public static RegistryObject<Item> BPickaxePlus = ITEMS.register("board_brick_pickaxe_plus", BoardBrick_Tools_Plus.BoardBrickPickaxe_Plus::new);
     public static RegistryObject<Item> BAxePlus = ITEMS.register("board_brick_axe_plus", BoardBrick_Tools_Plus.BoardBrickAxe_Plus::new);
@@ -44,11 +44,22 @@ public class ObjectsRegistry {
     public static RegistryObject<Item> BHoePlus = ITEMS.register("board_brick_hoe_plus", BoardBrick_Tools_Plus.BoardBrickHoe_Plus::new);
     public static RegistryObject<Item> SwordSuper = ITEMS.register("sword_super", Items.Sword::new);
     public static RegistryObject<Item> PickaxeSuper = ITEMS.register("pickaxe_super", Items.Pickaxe::new);
-    public static RegistryObject<Item> AxeSuper = ITEMS.register("axe_super", Items.Axe::new);
-    public static RegistryObject<Item> ShovelSuper = ITEMS.register("shovel_super", Items.Shovel::new);
-    public static RegistryObject<Item> HoeSuper = ITEMS.register("hoe_super", Items.Hoe::new);
-    public static RegistryObject<Item> BowSuper = ITEMS.register("bow_super", Items.Bow::new);
-    public static RegistryObject<Item> ShearsSuper = ITEMS.register("shears_super", Items.Shears::new);
+    public static RegistryObject<Item> Axe = ITEMS.register("axe_super", Items.Axe::new);
+    public static RegistryObject<Item> Shovel = ITEMS.register("shovel_super", Items.Shovel::new);
+    public static RegistryObject<Item> Hoe = ITEMS.register("hoe_super", Items.Hoe::new);
+    public static RegistryObject<Item> Bow = ITEMS.register("bow_super", Items.Bow::new);
+    public static RegistryObject<Item> Shears = ITEMS.register("shears_super", Items.Shears::new);
+
+    public static RegistryObject<Item> GenHand = ITEMS.register("hand", gen.hand::new);
+    public static RegistryObject<Item> GenChest = ITEMS.register("chest", gen.chest::new);
+    public static RegistryObject<Item> GenLegs = ITEMS.register("legs", gen.legs::new);
+    public static RegistryObject<Item> GenFeet = ITEMS.register("feet", gen.feet::new);
+
+    public static RegistryObject<Item> Hand = ITEMS.register("hand_super", gen.hand::new);
+    public static RegistryObject<Item> Chest = ITEMS.register("chest_super", gen.chest::new);
+    public static RegistryObject<Item> Legs = ITEMS.register("legs_super", gen.legs::new);
+    public static RegistryObject<Item> Feet = ITEMS.register("feet_super", gen.feet::new);
+
     public static RegistryObject<Block> A = BLOCKS.register("board_block_first", BoardBlocks.BoardBlockFifth::new);
     public static RegistryObject<Block> B = BLOCKS.register("board_block_second", BoardBlocks.BoardBlockSecond::new);
     public static RegistryObject<Block> C = BLOCKS.register("board_block_third", BoardBlocks.BoardBlockThird::new);
