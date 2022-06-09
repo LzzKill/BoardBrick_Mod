@@ -24,7 +24,7 @@ public class BoardBrickBowItem extends ShootableItem implements IVanishable {
     }
 
     public static float getPowerForTime(int p_185059_0_) {
-        return (float) boardbrick.MaxInt;
+        return 0;
     }
 
     public void releaseUsing(ItemStack p_77615_1_, World p_77615_2_, LivingEntity p_77615_3_, int p_77615_4_) {
@@ -55,7 +55,6 @@ public class BoardBrickBowItem extends ShootableItem implements IVanishable {
                         if (j > 0) {
                             abstractarrowentity.setBaseDamage(abstractarrowentity.getBaseDamage() + (double) j * 0.5D + 0.5D);
                         }
-
                         int k = EnchantmentHelper.getItemEnchantmentLevel(Enchantments.PUNCH_ARROWS, p_77615_1_);
                         if (k > 0) {
                             abstractarrowentity.setKnockback(k);
@@ -90,7 +89,7 @@ public class BoardBrickBowItem extends ShootableItem implements IVanishable {
     }
 
     public int getUseDuration(ItemStack p_77626_1_) {
-        return 0;
+        return Integer.MAX_VALUE;
     }
 
     public UseAction getUseAnimation(ItemStack p_77661_1_) {
