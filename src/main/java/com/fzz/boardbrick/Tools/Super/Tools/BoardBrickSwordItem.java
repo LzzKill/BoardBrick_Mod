@@ -46,7 +46,7 @@ public class BoardBrickSwordItem extends BoardBrickTieredItem implements IVanish
     }
 
     public boolean mineBlock(ItemStack p_179218_1_, World p_179218_2_, BlockState p_179218_3_, BlockPos p_179218_4_, LivingEntity p_179218_5_) {
-        return true;
+        return false;
     }
 
     public boolean isCorrectToolForDrops(BlockState p_150897_1_) {
