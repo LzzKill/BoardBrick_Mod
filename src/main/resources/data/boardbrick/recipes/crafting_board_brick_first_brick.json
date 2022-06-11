@@ -2,28 +2,28 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "boardbrick:board_brick"
+      "item": "boardbrick:boardbrick"
     },
     {
-      "item": "boardbrick:board_brick"
+      "item": "boardbrick:boardbrick"
     },
     {
-      "item": "boardbrick:board_brick"
+      "item": "boardbrick:boardbrick"
     },
     {
-      "item": "boardbrick:board_brick"
+      "item": "boardbrick:boardbrick"
     },
     {
-      "item": "boardbrick:board_brick"
+      "item": "boardbrick:boardbrick"
     },
     {
-      "item": "boardbrick:board_brick"
+      "item": "boardbrick:boardbrick"
     },
     {
-      "item": "boardbrick:board_brick"
+      "item": "boardbrick:boardbrick"
     },
     {
-      "item": "boardbrick:board_brick"
+      "item": "boardbrick:boardbrick"
     }
   ],
   "result": {
