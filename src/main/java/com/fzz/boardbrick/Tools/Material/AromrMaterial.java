@@ -13,9 +13,8 @@ import java.util.function.Supplier;
 
 public enum AromrMaterial implements IArmorMaterial {
 
-    GEN("boardbrick", 114514, new int[]{114514, 114514, 114514, 114514}, 15, SoundEvents.ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> Ingredient.of(ObjectsRegistry.BoardBrick.get())),
-    SUPER("superboardbrick", Integer.MAX_VALUE, new int[]{Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE}, Integer.MAX_VALUE, SoundEvents.ARMOR_EQUIP_CHAIN, Integer.MAX_VALUE, Integer.MAX_VALUE, () -> Ingredient.of(ObjectsRegistry.BoardBrick.get()));
-
+    GEN("boardbrick", 114514, new int[]{114514, 114514, 114514, 114514}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 0.0F, 0.0F, () -> Ingredient.of(ObjectsRegistry.BoardBrick.get())),
+    SUPER("superboardbrick", Integer.MAX_VALUE, new int[]{Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE}, Integer.MAX_VALUE, SoundEvents.ARMOR_EQUIP_GENERIC, Integer.MAX_VALUE, Integer.MAX_VALUE, () -> Ingredient.of(ObjectsRegistry.BoardBrick.get()));
     private final String name;
     private final int durabilityMultiplier;
     private final int[] slotProtections;

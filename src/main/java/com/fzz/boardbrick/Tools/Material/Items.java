@@ -2,6 +2,7 @@ package com.fzz.boardbrick.Tools.Material;
 
 import com.fzz.boardbrick.boardbrick;
 import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.ArmorItem;
 
 public class Items {
 
