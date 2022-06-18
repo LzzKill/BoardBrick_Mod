@@ -10,9 +10,7 @@ import java.util.function.Supplier;
 
 public enum ToolTier implements IItemTier {
 
-
     BoardBrickTool(Integer.MAX_VALUE, Integer.MAX_VALUE, Float.MAX_VALUE, Integer.MAX_VALUE, 1, () -> Ingredient.of(ObjectsRegistry.BoardBrick.get()));
-
 
     private final int level;
     private final int uses;
