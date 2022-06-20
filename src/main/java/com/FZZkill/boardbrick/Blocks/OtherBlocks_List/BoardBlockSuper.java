@@ -11,5 +11,4 @@ public class BoardBlockSuper extends Block {
     public BoardBlockSuper() {
         super(Properties.of(Material.STONE).strength(-boardbrick.MaxInt, boardbrick.MaxInt).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE).lightLevel(s -> boardbrick.MaxInt).requiresCorrectToolForDrops().harvestLevel(10));
     }
-
 }

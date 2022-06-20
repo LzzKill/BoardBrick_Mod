@@ -32,5 +32,8 @@
   "item.boardbrick.shears_super": "植物毁灭者",
   "item.boardbrick.mea": "114514",
   "item.boardbrick.mea.desc": "-野兽先辈 114",
-  "itemGroup.boardgroup": "板砖 Mod"
+  "itemGroup.boardgroup": "板砖 Mod",
+  "tooltip.boardbrick.a": "1145141919810",
+  "tooltip.boardbrick.block.superblock": "如果你放置这个方块，那么你将无法破坏这个东西，按住SHIFT查看更多",
+  "tooltip.boardbrick.block.superblock_shift": "这个逼的硬度是-2147483647"
 }

@@ -3,10 +3,10 @@ package com.FZZkill.boardbrick;
 import com.FZZkill.boardbrick.Blocks.BoardBlocks;
 import com.FZZkill.boardbrick.Blocks.OtherBlocks_List.BoardBlockEighth_Copy;
 import com.FZZkill.boardbrick.Blocks.OtherBlocks_List.BoardBlockSuper;
+import com.FZZkill.boardbrick.Blocks.OtherBlocks_List.BoardBlockSuper_Item;
 import com.FZZkill.boardbrick.Items.Food.BoardBrick_Food;
 import com.FZZkill.boardbrick.Items.Food.BoardBrick_Food_Plus;
 import com.FZZkill.boardbrick.Tools.Items.BoardBrick_Tools;
-import com.FZZkill.boardbrick.Tools.Material.gen;
 import com.FZZkill.boardbrick.Tools.Super.Items;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -44,7 +44,7 @@ public class ObjectsRegistry {
     public static RegistryObject<Item> Bow = ITEMS.register("bow_super", Items.Bow::new);
     public static RegistryObject<Item> Shears = ITEMS.register("shears_super", Items.Shears::new);
 
-    public static RegistryObject<Item> GenHand = ITEMS.register("hand_helmet", gen.hand::new);
+    /*public static RegistryObject<Item> GenHand = ITEMS.register("hand_helmet", gen.hand::new);
     public static RegistryObject<Item> GenChest = ITEMS.register("chest_chestplate", gen.chest::new);
     public static RegistryObject<Item> GenLegs = ITEMS.register("legs_leggings", gen.legs::new);
     public static RegistryObject<Item> GenFeet = ITEMS.register("feet_boots", gen.feet::new);
@@ -53,7 +53,7 @@ public class ObjectsRegistry {
     public static RegistryObject<Item> Chest = ITEMS.register("super_chestplate", com.FZZkill.boardbrick.Tools.Material.Items.chest::new);
     public static RegistryObject<Item> Legs = ITEMS.register("super_leggings", com.FZZkill.boardbrick.Tools.Material.Items.legs::new);
     public static RegistryObject<Item> Feet = ITEMS.register("super_boots", com.FZZkill.boardbrick.Tools.Material.Items.feet::new);
-
+*/
     public static RegistryObject<Block> A = BLOCKS.register("board_block_first", BoardBlocks.BoardBlockFifth::new);
     public static RegistryObject<Block> B = BLOCKS.register("board_block_second", BoardBlocks.BoardBlockSecond::new);
     public static RegistryObject<Block> C = BLOCKS.register("board_block_third", BoardBlocks.BoardBlockThird::new);
@@ -74,7 +74,7 @@ public class ObjectsRegistry {
     public static RegistryObject<Item> g = ITEMS.register("board_block_seventh", () -> new BlockItem(G.get(), new Item.Properties().tab(boardbrick.BoardGroup)));
     public static RegistryObject<Item> h = ITEMS.register("board_block_eighth", () -> new BlockItem(H.get(), new Item.Properties().tab(boardbrick.BoardGroup)));
     public static RegistryObject<Item> i = ITEMS.register("board_block_ninth", () -> new BlockItem(I.get(), new Item.Properties().tab(boardbrick.BoardGroup)));
-    public static RegistryObject<Item> j = ITEMS.register("board_block_super", () -> new BlockItem(J.get(), new Item.Properties().tab(boardbrick.BoardGroup)));
+    public static RegistryObject<Item> j = ITEMS.register("board_block_super", BoardBlockSuper_Item::new);
 
     public static RegistryObject<Block> H_ = BLOCKS.register("board_block_eighth_copy", BoardBlockEighth_Copy::new);
     public static RegistryObject<Item> h_ = ITEMS.register("board_block_eighth_copy", () -> new BlockItem(H_.get(), new Item.Properties().tab(boardbrick.BoardGroup)));

@@ -10,6 +10,7 @@ public class Items {
         public hand() {
             super(AromrMaterial.SUPER, EquipmentSlotType.HEAD, new Properties().tab(boardbrick.BoardGroup));
         }
+
     }
 
     public static class feet extends ArmorItem {
