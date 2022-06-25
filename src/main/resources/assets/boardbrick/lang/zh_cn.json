@@ -33,7 +33,12 @@
   "item.boardbrick.mea": "114514",
   "item.boardbrick.mea.desc": "-野兽先辈 114",
   "itemGroup.boardgroup": "板砖 Mod",
-  "tooltip.boardbrick.a": "1145141919810",
-  "tooltip.boardbrick.block.superblock": "如果你放置这个方块，那么你将无法破坏这个东西，按住SHIFT查看更多",
-  "tooltip.boardbrick.block.superblock_shift": "这个逼的硬度是-2147483647"
+  "item.boardbrick.super_boots": "jio的究极防御",
+  "item.boardbrick.super_leggings": "二三三裤衩",
+  "item.boardbrick.super_chestplate": "超级胸部",
+  "item.boardbrick.super_helmet": "五五开头盔",
+  "item.boardbrick.gen_helmet": "板砖头",
+  "item.boardbrick.gen_chestplate": "板砖胸",
+  "item.boardbrick.gen_leggings": "板砖裤",
+  "item.boardbrick.gen_boots": "板砖鞋"
 }

@@ -1,4 +1,4 @@
-package com.FZZkill.boardbrick.Tools.Material;
+package com.FZZkill.boardbrick.Tools.Armor;
 
 
 import com.FZZkill.boardbrick.ObjectsRegistry;
@@ -11,11 +11,12 @@ import net.minecraft.util.SoundEvents;
 
 import java.util.function.Supplier;
 
-public enum AromrMaterial implements IArmorMaterial {
+public enum ArmorMaterial implements IArmorMaterial {
 
-    GEN("boardbrick", 114514, new int[]{114514, 114514, 114514, 114514}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 0.0F, 0.0F, () -> Ingredient.of(ObjectsRegistry.BoardBrick.get())),
-    SUPER("board_brick", Integer.MAX_VALUE, new int[]{Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE}, Integer.MAX_VALUE, SoundEvents.ARMOR_EQUIP_GENERIC, Integer.MAX_VALUE, Integer.MAX_VALUE, () -> Ingredient.of(ObjectsRegistry.BoardBrick.get()));
+    GEN("gen", 114514, new int[]{114514, 114514, 114514, 114514}, 114514, SoundEvents.ARMOR_EQUIP_NETHERITE, 114514F, 0.0F, () -> Ingredient.of(ObjectsRegistry.BoardBrick.get())),
+    SUPER("super", Integer.MAX_VALUE, new int[]{Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE}, Integer.MAX_VALUE, SoundEvents.ARMOR_EQUIP_GENERIC, Integer.MAX_VALUE, Integer.MAX_VALUE, () -> Ingredient.of(ObjectsRegistry.BoardBrick.get()));
     private final String name;
+    private static final int[] HEALTH_PER_SLOT = new int[]{-Integer.MAX_VALUE, -Integer.MAX_VALUE, -Integer.MAX_VALUE, -Integer.MAX_VALUE};
     private final int durabilityMultiplier;
     private final int[] slotProtections;
     private final int enchantmentValue;
@@ -24,7 +25,7 @@ public enum AromrMaterial implements IArmorMaterial {
     private final float knockbackResistance;
     private final LazyValue<Ingredient> repairIngredient;
 
-    AromrMaterial(String p_i231593_3_, int p_i231593_4_, int[] p_i231593_5_, int p_i231593_6_, SoundEvent p_i231593_7_, float p_i231593_8_, float p_i231593_9_, Supplier<Ingredient> p_i231593_10_) {
+    ArmorMaterial(String p_i231593_3_, int p_i231593_4_, int[] p_i231593_5_, int p_i231593_6_, SoundEvent p_i231593_7_, float p_i231593_8_, float p_i231593_9_, Supplier<Ingredient> p_i231593_10_) {
         this.name = p_i231593_3_;
         this.durabilityMultiplier = p_i231593_4_;
         this.slotProtections = p_i231593_5_;
@@ -35,19 +36,18 @@ public enum AromrMaterial implements IArmorMaterial {
         this.repairIngredient = new LazyValue<>(p_i231593_10_);
     }
 
-    @Override
     public int getDurabilityForSlot(EquipmentSlotType p_200896_1_) {
-        return 0;
+        return HEALTH_PER_SLOT[p_200896_1_.getIndex()] * this.durabilityMultiplier;
     }
 
     @Override
     public int getDefenseForSlot(EquipmentSlotType p_200902_1_) {
-        return 0;
+        return this.durabilityMultiplier;
     }
 
     @Override
     public int getEnchantmentValue() {
-        return 0;
+        return this.enchantmentValue;
     }
 
     @Override
@@ -62,16 +62,16 @@ public enum AromrMaterial implements IArmorMaterial {
 
     @Override
     public String getName() {
-        return null;
+        return this.name;
     }
 
     @Override
     public float getToughness() {
-        return 0;
+        return this.toughness;
     }
 
     @Override
     public float getKnockbackResistance() {
-        return 0;
+        return this.knockbackResistance;
     }
 }

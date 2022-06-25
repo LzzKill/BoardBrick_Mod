@@ -36,6 +36,12 @@
   "item.boardbrick.mea": "114514",
   "item.boardbrick.mea.desc": "-野兽先辈 114",
   "tooltip.boardbrick.a": "1145141919810",
-  "tooltip.boardbrick.block.superblock": "the SuperBlock, warring: if you put the block, You cannot pick the block",
-  "tooltip.boardbrick.block.superblock_shift": "this strength is -2147483647"
+  "item.boardbrick.super_boots": "Board Brick Boot Super",
+  "item.boardbrick.super_leggings": "Board Brick Leggings Super",
+  "item.boardbrick.super_chestplate": "Board Brick Chest Plate Super",
+  "item.boardbrick.super_helmet": "Board Brick Helmet Super",
+  "item.boardbrick.gen_helmet": "Board Brick Helmet",
+  "item.boardbrick.gen_chestplate": "Board Brick Chest Plate",
+  "item.boardbrick.gen_leggings": "Board Brick Leggings",
+  "item.boardbrick.gen_boots": "Board Brick \n Boots"
 }

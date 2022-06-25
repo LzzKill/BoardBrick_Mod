@@ -6,6 +6,7 @@ import com.FZZkill.boardbrick.Blocks.OtherBlocks_List.BoardBlockSuper;
 import com.FZZkill.boardbrick.Blocks.OtherBlocks_List.BoardBlockSuper_Item;
 import com.FZZkill.boardbrick.Items.Food.BoardBrick_Food;
 import com.FZZkill.boardbrick.Items.Food.BoardBrick_Food_Plus;
+import com.FZZkill.boardbrick.Tools.Armor.gen;
 import com.FZZkill.boardbrick.Tools.Items.BoardBrick_Tools;
 import com.FZZkill.boardbrick.Tools.Super.Items;
 import net.minecraft.block.Block;
@@ -36,24 +37,24 @@ public class ObjectsRegistry {
     public static RegistryObject<Item> BShovel = ITEMS.register("board_brick_shovel", BoardBrick_Tools.BoardBrickShovel::new);
     public static RegistryObject<Item> BHoe = ITEMS.register("board_brick_hoe", BoardBrick_Tools.BoardBrickHoe::new);
     public static RegistryObject<Item> BBow = ITEMS.register("board_brick_bow", BoardBrick_Tools.BoardBrickBow::new);
-    public static RegistryObject<Item> SwordSuper = ITEMS.register("sword_super", Items.Sword::new);
-    public static RegistryObject<Item> PickaxeSuper = ITEMS.register("pickaxe_super", Items.Pickaxe::new);
+
+    public static RegistryObject<Item> Sword = ITEMS.register("sword_super", Items.Sword::new);
+    public static RegistryObject<Item> Pickaxe = ITEMS.register("pickaxe_super", Items.Pickaxe::new);
     public static RegistryObject<Item> Axe = ITEMS.register("axe_super", Items.Axe::new);
     public static RegistryObject<Item> Shovel = ITEMS.register("shovel_super", Items.Shovel::new);
     public static RegistryObject<Item> Hoe = ITEMS.register("hoe_super", Items.Hoe::new);
     public static RegistryObject<Item> Bow = ITEMS.register("bow_super", Items.Bow::new);
     public static RegistryObject<Item> Shears = ITEMS.register("shears_super", Items.Shears::new);
 
-    /*public static RegistryObject<Item> GenHand = ITEMS.register("hand_helmet", gen.hand::new);
-    public static RegistryObject<Item> GenChest = ITEMS.register("chest_chestplate", gen.chest::new);
-    public static RegistryObject<Item> GenLegs = ITEMS.register("legs_leggings", gen.legs::new);
-    public static RegistryObject<Item> GenFeet = ITEMS.register("feet_boots", gen.feet::new);
+    public static RegistryObject<Item> GenHand = ITEMS.register("gen_helmet", gen.hand::new);
+    public static RegistryObject<Item> GenChest = ITEMS.register("gen_chestplate", gen.chest::new);
+    public static RegistryObject<Item> GenLegs = ITEMS.register("gen_leggings", gen.legs::new);
+    public static RegistryObject<Item> GenFeet = ITEMS.register("gen_boots", gen.feet::new);
 
-    public static RegistryObject<Item> Hand = ITEMS.register("super_helmet", com.FZZkill.boardbrick.Tools.Material.Items.hand::new);
-    public static RegistryObject<Item> Chest = ITEMS.register("super_chestplate", com.FZZkill.boardbrick.Tools.Material.Items.chest::new);
-    public static RegistryObject<Item> Legs = ITEMS.register("super_leggings", com.FZZkill.boardbrick.Tools.Material.Items.legs::new);
-    public static RegistryObject<Item> Feet = ITEMS.register("super_boots", com.FZZkill.boardbrick.Tools.Material.Items.feet::new);
-*/
+    public static RegistryObject<Item> Super_Helmet = ITEMS.register("super_helmet", com.FZZkill.boardbrick.Tools.Armor.Items.hand::new);
+    public static RegistryObject<Item> Super_Chestplate = ITEMS.register("super_chestplate", com.FZZkill.boardbrick.Tools.Armor.Items.chest::new);
+    public static RegistryObject<Item> Super_Leggings = ITEMS.register("super_leggings", com.FZZkill.boardbrick.Tools.Armor.Items.legs::new);
+    public static RegistryObject<Item> Super_Feet = ITEMS.register("super_boots", com.FZZkill.boardbrick.Tools.Armor.Items.feet::new);
     public static RegistryObject<Block> A = BLOCKS.register("board_block_first", BoardBlocks.BoardBlockFifth::new);
     public static RegistryObject<Block> B = BLOCKS.register("board_block_second", BoardBlocks.BoardBlockSecond::new);
     public static RegistryObject<Block> C = BLOCKS.register("board_block_third", BoardBlocks.BoardBlockThird::new);

@@ -22,19 +22,19 @@
       "conditions": {
         "items": [
           {
-            "item": "boardbrick:board_brick_axe"
+            "item": "boardbrick:sword_super"
           },
           {
-            "item": "boardbrick:board_brick_pickaxe"
+            "item": "boardbrick:pickaxe_super"
           },
           {
-            "item": "boardbrick:board_brick_hoe"
+            "item": "boardbrick:hoe_super"
           },
           {
-            "item": "boardbrick:board_brick_sword"
+            "item": "boardbrick:sword_super"
           },
           {
-            "item": "boardbrick:board_brick_shovel"
+            "item": "boardbrick:shovel_super"
           }
         ]
       }

@@ -24,7 +24,7 @@ public class BoardBrickBowItem extends ShootableItem implements IVanishable {
     }
 
     public static float getPowerForTime(int p_185059_0_) {
-        return 1;
+        return 0.1f;
     }
 
     public void releaseUsing(ItemStack p_77615_1_, World p_77615_2_, LivingEntity p_77615_3_, int p_77615_4_) {

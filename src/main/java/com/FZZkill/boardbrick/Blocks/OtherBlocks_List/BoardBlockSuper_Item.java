@@ -21,9 +21,7 @@ public class BoardBlockSuper_Item extends BlockItem {
 
     @Override
     public void appendHoverText(ItemStack p_77624_1_, @Nullable World p_77624_2_, List<ITextComponent> p_77624_3_, ITooltipFlag p_77624_4_) {
-        if (Screen.hasShiftDown()) p_77624_3_.add(new TranslationTextComponent("superblock"));
-        else p_77624_3_.add(new TranslationTextComponent("superblock_shift"));
-
+        if (Screen.hasShiftDown()) p_77624_3_.add(new TranslationTextComponent("这个壁比基岩还要软"));
 
         super.appendHoverText(p_77624_1_, p_77624_2_, p_77624_3_, p_77624_4_);
     }
