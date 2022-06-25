@@ -8,31 +8,31 @@ public class Items {
 
     public static class Sword extends BoardBrickSwordItem {
         public Sword() {
-            super(ToolTier.BoardBrickTool, boardbrick.MaxInt, boardbrick.MaxInt, new Properties().tab(boardbrick.BoardGroup));
+            super(ToolTier.BoardBrickTool, Integer.MAX_VALUE, Integer.MAX_VALUE, new Properties().tab(boardbrick.BoardGroup));
         }
     }
 
     public static class Hoe extends BoardBrickHoeItem {
         public Hoe() {
-            super(ToolTier.BoardBrickTool, boardbrick.MaxInt, boardbrick.MaxInt, new Properties().tab(boardbrick.BoardGroup));
+            super(ToolTier.BoardBrickTool, Integer.MAX_VALUE, Integer.MAX_VALUE, new Properties().tab(boardbrick.BoardGroup));
         }
     }
 
     public static class Shovel extends BoardBrickShovelItem {
         public Shovel() {
-            super(ToolTier.BoardBrickTool, boardbrick.MaxInt, boardbrick.MaxInt, new Properties().tab(boardbrick.BoardGroup));
+            super(ToolTier.BoardBrickTool, Integer.MAX_VALUE, Integer.MAX_VALUE, new Properties().tab(boardbrick.BoardGroup));
         }
     }
 
     public static class Pickaxe extends BoardBrickPickaxeItem {
         public Pickaxe() {
-            super(ToolTier.BoardBrickTool, boardbrick.MaxInt, boardbrick.MaxInt, new Properties().tab(boardbrick.BoardGroup));
+            super(ToolTier.BoardBrickTool, Integer.MAX_VALUE, Integer.MAX_VALUE, new Properties().tab(boardbrick.BoardGroup));
         }
     }
 
     public static class Axe extends BoardBrickAxeItem {
         public Axe() {
-            super(ToolTier.BoardBrickTool, boardbrick.MaxInt, boardbrick.MaxInt, new Item.Properties().tab(boardbrick.BoardGroup));
+            super(ToolTier.BoardBrickTool, Integer.MAX_VALUE, Integer.MAX_VALUE, new Item.Properties().tab(boardbrick.BoardGroup));
         }
     }
 

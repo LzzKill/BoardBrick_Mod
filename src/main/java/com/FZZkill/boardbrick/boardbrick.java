@@ -10,8 +10,6 @@ public class boardbrick {
 
     public static final String MODID = "boardbrick";
 
-    public static final int MaxInt = 2147483647;
-
     public static final ItemGroup BoardGroup = new boardbrick.BoardGroup("boardgroup");
     //BoardBrick
 

@@ -1,6 +1,5 @@
 package com.FZZkill.boardbrick.Tools.Super.Tools;
 
-import com.FZZkill.boardbrick.boardbrick;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.enchantment.IVanishable;
@@ -118,6 +117,6 @@ public class BoardBrickBowItem extends ShootableItem implements IVanishable {
     }
 
     public int getDefaultProjectileRange() {
-        return boardbrick.MaxInt;
+        return Integer.MAX_VALUE;
     }
 }

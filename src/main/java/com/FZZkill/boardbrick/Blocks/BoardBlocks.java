@@ -1,6 +1,5 @@
 package com.FZZkill.boardbrick.Blocks;
 
-import com.FZZkill.boardbrick.boardbrick;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
@@ -34,7 +33,7 @@ public class BoardBlocks {
 
     public static class BoardBlockNinth extends Block {
         public BoardBlockNinth() {
-            super(Properties.of(Material.STONE).strength(9999, boardbrick.MaxInt).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE).lightLevel(s -> 16).requiresCorrectToolForDrops().harvestLevel(5));
+            super(Properties.of(Material.STONE).strength(Integer.MAX_VALUE, Integer.MAX_VALUE).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE).lightLevel(s -> 16).requiresCorrectToolForDrops().harvestLevel(5));
         }
     }
 
