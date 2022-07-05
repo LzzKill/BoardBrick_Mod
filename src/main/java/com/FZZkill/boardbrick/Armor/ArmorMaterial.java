@@ -1,4 +1,4 @@
-package com.FZZkill.boardbrick.Tools.Armor;
+package com.FZZkill.boardbrick.Armor;
 
 
 import com.FZZkill.boardbrick.ObjectsRegistry;

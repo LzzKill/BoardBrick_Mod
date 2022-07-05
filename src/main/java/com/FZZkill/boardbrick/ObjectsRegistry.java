@@ -1,12 +1,13 @@
 package com.FZZkill.boardbrick;
 
+import com.FZZkill.boardbrick.Armor.Super;
+import com.FZZkill.boardbrick.Armor.gen;
 import com.FZZkill.boardbrick.Blocks.BoardBlocks;
 import com.FZZkill.boardbrick.Blocks.OtherBlocks_List.BoardBlockEighth_Copy;
 import com.FZZkill.boardbrick.Blocks.OtherBlocks_List.BoardBlockSuper;
 import com.FZZkill.boardbrick.Blocks.OtherBlocks_List.BoardBlockSuper_Item;
 import com.FZZkill.boardbrick.Items.Food.BoardBrick_Food;
 import com.FZZkill.boardbrick.Items.Food.BoardBrick_Food_Plus;
-import com.FZZkill.boardbrick.Tools.Armor.gen;
 import com.FZZkill.boardbrick.Tools.Items.BoardBrick_Tools;
 import com.FZZkill.boardbrick.Tools.Super.Items;
 import net.minecraft.block.Block;
@@ -51,10 +52,10 @@ public class ObjectsRegistry {
     public static RegistryObject<Item> GenLegs = ITEMS.register("gen_leggings", gen.legs::new);
     public static RegistryObject<Item> GenFeet = ITEMS.register("gen_boots", gen.feet::new);
 
-    public static RegistryObject<Item> Super_Helmet = ITEMS.register("super_helmet", com.FZZkill.boardbrick.Tools.Armor.Items.hand::new);
-    public static RegistryObject<Item> Super_Chestplate = ITEMS.register("super_chestplate", com.FZZkill.boardbrick.Tools.Armor.Items.chest::new);
-    public static RegistryObject<Item> Super_Leggings = ITEMS.register("super_leggings", com.FZZkill.boardbrick.Tools.Armor.Items.legs::new);
-    public static RegistryObject<Item> Super_Feet = ITEMS.register("super_boots", com.FZZkill.boardbrick.Tools.Armor.Items.feet::new);
+    public static RegistryObject<Item> Super_Helmet = ITEMS.register("super_helmet", Super.hand::new);
+    public static RegistryObject<Item> Super_Chestplate = ITEMS.register("super_chestplate", Super.chest::new);
+    public static RegistryObject<Item> Super_Leggings = ITEMS.register("super_leggings", Super.legs::new);
+    public static RegistryObject<Item> Super_Feet = ITEMS.register("super_boots", Super.feet::new);
     public static RegistryObject<Block> A = BLOCKS.register("board_block_first", BoardBlocks.BoardBlockFifth::new);
     public static RegistryObject<Block> B = BLOCKS.register("board_block_second", BoardBlocks.BoardBlockSecond::new);
     public static RegistryObject<Block> C = BLOCKS.register("board_block_third", BoardBlocks.BoardBlockThird::new);

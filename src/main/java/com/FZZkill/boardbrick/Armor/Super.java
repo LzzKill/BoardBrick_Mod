@@ -1,11 +1,11 @@
-package com.FZZkill.boardbrick.Tools.Armor;
+package com.FZZkill.boardbrick.Armor;
 
 import com.FZZkill.boardbrick.boardbrick;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ItemStack;
 
-public class Items {
+public class Super {
 
     public static class hand extends ArmorItem {
         public hand() {
