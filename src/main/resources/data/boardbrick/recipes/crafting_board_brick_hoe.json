@@ -6,11 +6,11 @@
     " M "
   ],
   "key": {
-    "M": {
+    "F": {
       "item": "boardbrick:board_block_first"
     },
-    "F": {
-      "item": "boardbrick:board_block_second"
+    "M": {
+      "item": "boardbrick:board_brick"
     }
   },
   "result": {

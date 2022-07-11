@@ -33,7 +33,7 @@ public class BoardBlocks {
 
     public static class BoardBlockNinth extends Block {
         public BoardBlockNinth() {
-            super(Properties.of(Material.STONE).strength(Integer.MAX_VALUEbow, Integer.MAX_VALUE).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE).lightLevel(s -> 16).requiresCorrectToolForDrops().harvestLevel(5));
+            super(Properties.of(Material.STONE).strength(Integer.MAX_VALUE, Integer.MAX_VALUE).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE).lightLevel(s -> 16).requiresCorrectToolForDrops().harvestLevel(5));
         }
     }
 
